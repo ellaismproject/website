@@ -24,8 +24,8 @@
                         current
                         balance in faucet, or 0.1 ELLA, whichever is lower.
 
-                        If you want to donate to the faucet, the address is <a href="" target="_blank"
-                                                                               class="bl-text-secondary">0x231ea5595788f704522c630a22c0b7cc49318ef6</a>.
+                        If you want to donate to the faucet, the address is <a
+                            href="https://explorer.ellaism.io/address/0x231ea5595788f704522c630a22c0b7cc49318ef6">0x231ea5595788f704522c630a22c0b7cc49318ef6</a>.
 
                         Special thanks to <a href="https://keybase.io/tbates76" class="bl-text-secondary">TBates</a> and
                         <a
@@ -118,8 +118,8 @@
                         <p class="bl-pre-line">
                             Ellaism has a testnet called Shikinseki, and we have a bot that allows you to get some money
                             for
-                            testing on this testnet. See <a href="https://ellaism.org/testnet/"
-                                                            class="bl-text-secondary">Testnet</a>
+                            testing on this testnet. See
+                            <router-link :to="{name:'testnet'}">Testnet</router-link>
                             for more information.
                         </p>
 

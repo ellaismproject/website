@@ -76,11 +76,11 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
+                                <!--<tr>
                                     <td><a href="https://pool.ellaism.org" rel="nofollow">Dev Pool</a></td>
                                     <td align="right">100</td>
                                     <td align="right">1</td>
-                                </tr>
+                                </tr>-->
                                 <tr>
                                     <td><a href="http://ella.pool.sexy" rel="nofollow">Pool Sexy</a></td>
                                     <td align="right">2.5</td>
@@ -115,13 +115,13 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
+                                <!--<tr>
                                     <td align="left"><a href="https://pool.ellaism.org/" rel="nofollow">Dev Mining
                                         Pool</a></td>
                                     <td align="center"></td>
                                     <td>Parity</td>
                                     <td align="right">1.10.6</td>
-                                </tr>
+                                </tr>-->
                                 <tr>
                                     <td align="left"><a href="http://ella.poolhub.org/" rel="nofollow">poolHUB</a></td>
                                     <td align="center"></td>

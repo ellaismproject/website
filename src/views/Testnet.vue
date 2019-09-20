@@ -10,7 +10,7 @@
                     <h2>ProgPoW (Mtihani)</h2>
                     <p>Help us test out ProgPoW mining. This testnet has mostly identical settings comparing Ellaism
                         mainnet, but with ProgPOW transition happening at block 0. </p>
-                    <p><a href="https://wiki.ellaism.org/progpow">Setup instructions</a> are being developed by the
+                    <p><a href="https://wiki.ellaism.io/progpow">Setup instructions</a> are being developed by the
                         community.</p>
                     <h2>Shikinseki</h2>
                     <p>
@@ -35,12 +35,12 @@
                         Additional facilities you can use on the testnet:
                     </p>
                     <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li>Explorer: <a href="https://explorer.testnet.ellaism.org" target="_blank"
-                                         class="bl-text-secondary-underline">https://explorer.testnet.ellaism.org</a>
+                        <li>Explorer: <a href="https://explorer.testnet.ellaism.io" target="_blank"
+                                         class="bl-text-secondary-underline">https://explorer.testnet.ellaism.io</a>
                         </li>
-                        <li>JSONRPC Endpoint: <a href="https://jsonrpc.testnet.ellaism.org" target="_blank"
+                        <li>JSONRPC Endpoint: <a href="https://jsonrpc.testnet.ellaism.io" target="_blank"
                                                  class="bl-text-secondary-underline">
-                            https://jsonrpc.testnet.ellaism.org
+                            https://jsonrpc.testnet.ellaism.io
                         </a></li>
                     </ul>
                     <h2 class="bl-h2">

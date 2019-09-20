@@ -82,7 +82,7 @@
                         </li>
                         up) network selection.
                         <li>Choose “Custom RPC” and Enter <code
-                                class="highlighter-rouge">https://jsonrpc.ellaism.org</code>.
+                                class="highlighter-rouge">https://jsonrpc.ellaism.io</code>.
                             Click “Save”.
                         </li>
                     </ul>
