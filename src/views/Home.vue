@@ -15,10 +15,11 @@
         <section class="hero is-medium is-callout">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <p class="is-size-3 has-text-weight-light">Ellaism is an <abbr
-                            title="Ethereum Virtual Machine">EVM</abbr>-based network with WASM enabled. We encourage
-                        developers, educators, and enthusiasts to test WebAssembly scripting on our testnet.</p>
-                    <b-button tag="router-link" :to="{ name: 'testnet' }" class="is-medium" type="is-dark"
+                    <p class="is-size-3-desktop has-text-weight-light">Ellaism is an <abbr
+                            title="Ethereum Virtual Machine">EVM</abbr>-based network with <abbr
+                            title="WebAssembly">Wasm</abbr> enabled. We encourage developers, educators, and enthusiasts
+                        to test WebAssembly scripting on our testnet.</p>
+                    <b-button tag="router-link" :to="{ name: 'testnet' }" class="is-size-4-desktop" type="is-dark"
                               icon-pack="fas" icon-left="info-circle">
                         Testnet Information
                     </b-button>
@@ -31,10 +32,10 @@
                     <div class="tile is-ancestor">
                         <div class="tile is-parent">
                             <article class="tile is-child box">
-                                <p class="title is-4"><i class="fas fa-terminal"></i> EVM and WASM Enabled</p>
+                                <p class="title is-4"><i class="fas fa-terminal"></i> EVM and Wasm Enabled</p>
                                 <div class="content">
-                                    <p>Ellaism enabled Web Assembly on August 4th, 2018, giving Developers the choice to
-                                        use the EVM or gain experience running WASM smart contracts in a production
+                                    <p>Ellaism enabled WebAssembly on August 4th, 2018, giving Developers the choice to
+                                        use the EVM or gain experience running Wasm smart contracts in a production
                                         environment.</p>
                                 </div>
                             </article>

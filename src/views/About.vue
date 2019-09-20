@@ -3,17 +3,17 @@
         <section class="section">
             <div class="container">
                 <h1 class="title">About Ellaism</h1>
-                <h2 class="subtitle">An EVM-based Network with WASM Enabled</h2>
+                <h2 class="subtitle">An EVM-based Network with Wasm Enabled</h2>
                 <hr>
             </div>
             <div class="container">
                 <div class="content">
-                    <p>Ellaism is an <abbr title="Ethereum Virtual Machine">EVM</abbr>-based network with WASM enabled.
-                        It intends to use exclusively “proof of work” to secure the blockchain. It benefits from a zero
-                        pre-mine and has no mandatory developer fees with all support and development donated freely by
-                        the community. We believe this makes our coin one of the most honest pure Ethereum projects, and
-                        something that is uniquely interesting as a platform for serious developers, educators, and
-                        enthusiasts.</p>
+                    <p>Ellaism is an <abbr title="Ethereum Virtual Machine">EVM</abbr>-based network with <abbr
+                            title="WebAssembly">Wasm</abbr> enabled. It intends to use exclusively “proof of work” to
+                        secure the blockchain. It benefits from a zero pre-mine and has no mandatory developer fees with
+                        all support and development donated freely by the community. We believe this makes our coin one
+                        of the most honest pure Ethereum projects, and something that is uniquely interesting as a
+                        platform for serious developers, educators, and enthusiasts.</p>
                     <h3>Roadmap</h3>
                     <p>Below are lists of our roadmap plan. You can submit your suggestions regarding this roadmap to
                         the public Discord server, or privately to <a href="mailto:core@ellaism.io">core@ellaism.io</a>.
