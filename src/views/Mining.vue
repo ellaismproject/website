@@ -189,15 +189,15 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-    @Component({
-        metaInfo() {
-            return {
-                title: 'Mining Ellaism',
-            };
-        },
-    })
-    export default class Mining extends Vue {
-    }
+@Component({
+    metaInfo() {
+        return {
+            title: 'Mining Ellaism',
+        };
+    },
+})
+export default class Mining extends Vue {
+}
 </script>

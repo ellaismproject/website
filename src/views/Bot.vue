@@ -163,15 +163,15 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-    @Component({
-        metaInfo() {
-            return {
-                title: 'Ellaism Bots',
-            };
-        },
-    })
-    export default class Bot extends Vue {
-    }
+@Component({
+    metaInfo() {
+        return {
+            title: 'Ellaism Bots',
+        };
+    },
+})
+export default class Bot extends Vue {
+}
 </script>

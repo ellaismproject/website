@@ -44,15 +44,15 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-    @Component({
-        metaInfo() {
-            return {
-                title: 'Ellaism DApps',
-            };
-        },
-    })
-    export default class DApp extends Vue {
-    }
+@Component({
+    metaInfo() {
+        return {
+            title: 'Ellaism DApps',
+        };
+    },
+})
+export default class DApp extends Vue {
+}
 </script>

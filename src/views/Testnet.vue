@@ -65,15 +65,15 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-    @Component({
-        metaInfo() {
-            return {
-                title: 'Ellaism Testnet',
-            };
-        },
-    })
-    export default class Testnet extends Vue {
-    }
+@Component({
+    metaInfo() {
+        return {
+            title: 'Ellaism Testnet',
+        };
+    },
+})
+export default class Testnet extends Vue {
+}
 </script>

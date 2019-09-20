@@ -124,15 +124,15 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from "vue-property-decorator";
+import {Component, Vue} from 'vue-property-decorator';
 
-    @Component({
-        metaInfo() {
-            return {
-                title: 'Ellaism Wallets',
-            };
-        },
-    })
-    export default class Wallet extends Vue {
-    }
+@Component({
+    metaInfo() {
+        return {
+            title: 'Ellaism Wallets',
+        };
+    },
+})
+export default class Wallet extends Vue {
+}
 </script>

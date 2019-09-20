@@ -17,23 +17,29 @@
 </template>
 
 <script lang="ts">
-    import {Component, Vue} from "vue-property-decorator";
-    import MainNav from "@/components/MainNav.vue";
+import {Component, Vue} from 'vue-property-decorator';
+import MainNav from '@/components/MainNav.vue';
 
-    @Component({
-        components: {
-            MainNav,
-        },
-        metaInfo() {
-            return {
-                title: 'Ellaism',
-                titleTemplate: '%s | Open-source Platform for Decentralized Applications'
-            };
-        },
-    })
-    export default class App extends Vue {
-        get year(): string {
-            return new Date().getFullYear().toString();
-        }
+@Component({
+    components: {
+        MainNav,
+    },
+    metaInfo() {
+        return {
+            title: 'Ellaism',
+            titleTemplate: '%s | Open-source Platform for Decentralized Applications',
+        };
+    },
+})
+export default class App extends Vue {
+    get year(): string {
+        return new Date().getFullYear().toString();
     }
+}
 </script>
+
+<style>
+    body {
+        cursor: default;
+    }
+</style>
