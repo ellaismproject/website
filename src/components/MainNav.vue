@@ -83,7 +83,7 @@ export default class MainNav extends Vue {
 }
 </script>
 
-<style>
+<style scoped>
     .navbar.is-dark .navbar-brand > a.navbar-item:focus,
     .navbar.is-dark .navbar-brand > a.navbar-item:hover,
     .navbar.is-dark .navbar-brand > a.navbar-item.is-active,
