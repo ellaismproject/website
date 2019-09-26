@@ -2,7 +2,7 @@
     <div class="testnet">
         <section class="section">
             <div class="container">
-                <h1 class="title">Ellaism Testnet</h1>
+                <h1 class="title">{{ $t('page.testnet.title') }}</h1>
                 <hr>
             </div>
             <div class="container">

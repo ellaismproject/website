@@ -1,0 +1,84 @@
+{
+  "ellaism": "Ellaism",
+  "footer_message": "@:ellaism is not funded nor controlled by any entity, it is an open-source platform for decentralized applications.",
+  "page": {
+    "default": {
+      "meta_title": "@:ellaism",
+      "meta_title_template": "%s | Open-source Platform for Decentralized Applications"
+    },
+    "about": {
+      "meta_title": "About @:ellaism",
+      "title": "About @:ellaism",
+      "sub_title": "An EVM-based Network with Wasm Enabled"
+    },
+    "bot": {
+      "meta_title": "@:ellaism Bots",
+      "title": "@:ellaism Bots"
+    },
+    "dapp": {
+      "meta_title": "@:ellaism DApps",
+      "title": "@:ellaism DApps",
+      "sub_title": "Decentralized Applications on the @:ellaism Blockchain"
+    },
+    "error404": {
+      "meta_title": "Not Found",
+      "title": "Not Found",
+      "sub_title": "The requested page was not found."
+    },
+    "home": {
+      "title": "@:ellaism",
+      "sub_title": "An Open-source Platform for Decentralized Applications",
+      "testnet_information": "Testnet Information",
+      "card_1": {
+        "title": "EVM and Wasm Enabled",
+        "content": "Ellaism enabled WebAssembly on August 4th, 2018, giving Developers the choice to use the EVM or gain experience running Wasm smart contracts in a production environment."
+      },
+      "card_2": {
+        "title": "Transparency and Stability",
+        "content": "In cryptocurrency, transparency brings trust. The Core team hold strong transparency in its financial and development process. Our strong principles also build a stable platform."
+      },
+      "card_3": {
+        "title": "Community Driven",
+        "content": "We have a welcoming community and a donation-based development process. You have full control over the cryptocurrency you use, and can always choose a team you trust to develop @:ellaism."
+      }
+    },
+    "mining": {
+      "meta_title": "Mining @:ellaism",
+      "title": "Mining @:ellaism"
+    },
+    "testnet": {
+      "meta_title": "@:ellaism Testnet",
+      "title": "@:ellaism Testnet"
+    },
+    "wallet": {
+      "meta_title": "@:ellaism Wallets",
+      "title": "@:ellaism Wallets"
+    }
+  },
+  "navigation": {
+    "ellaism": "@:ellaism",
+    "getting_started": "Getting Started",
+    "getting_started_subnav": {
+      "user": "Users",
+      "wallet": "Wallets",
+      "mining": "Mining",
+      "developer": "Developers",
+      "testnet": "Testnet",
+      "dapp": "DApps",
+      "bot": "Bots"
+    },
+    "about": "About",
+    "community": "Community",
+    "community_subnav": {
+      "official": "Official",
+      "block_explorer": "@:ellaism Block Explorer",
+      "github": "@:ellaism GitHub",
+      "community": "Community",
+      "discord": "Discord",
+      "reddit": "Reddit",
+      "telegram": "Telegram",
+      "twitter": "Twitter"
+    },
+    "blockchain_explorer": "Blockchain Explorer"
+  }
+}

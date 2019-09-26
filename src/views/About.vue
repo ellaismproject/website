@@ -2,8 +2,8 @@
     <div class="about">
         <section class="section">
             <div class="container">
-                <h1 class="title">About Ellaism</h1>
-                <h2 class="subtitle">An EVM-based Network with Wasm Enabled</h2>
+                <h1 class="title">{{ $t('page.about.title') }}</h1>
+                <h2 class="subtitle">{{ $t('page.about.sub_title') }}</h2>
                 <hr>
             </div>
             <div class="container">
@@ -102,7 +102,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'About Ellaism',
+            title: this.$t('page.about.meta_title').toString(),
         };
     },
 })

@@ -2,7 +2,7 @@
     <div class="bot">
         <section class="section">
             <div class="container">
-                <h1 class="title">Ellaism Bots</h1>
+                <h1 class="title">{{ $t('page.bot.title') }}</h1>
                 <hr>
             </div>
             <div class="container">
@@ -168,7 +168,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'Ellaism Bots',
+            title: this.$t('page.bot.meta_title').toString(),
         };
     },
 })

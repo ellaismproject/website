@@ -8,9 +8,8 @@
 
         <footer class="footer">
             <div class="content has-text-centered">
-                <p>&copy; {{year}} Ellaism</p>
-                <p class="has-text-grey" style="max-width: 560px; margin: 0 auto;">Ellaism is not funded nor controlled
-                    by any entity, it is a community driven EVM-based network with WASM enabled.</p>
+                <p>&copy; {{ `${year} ${$t('ellaism')}` }}</p>
+                <p class="has-text-grey" style="max-width: 560px; margin: 0 auto;">{{ $t('footer_message') }}</p>
             </div>
         </footer>
     </div>
@@ -26,8 +25,8 @@ import MainNav from '@/components/MainNav.vue';
     },
     metaInfo() {
         return {
-            title: 'Ellaism',
-            titleTemplate: '%s | Open-source Platform for Decentralized Applications',
+            title: this.$t('page.default.meta_title').toString(),
+            titleTemplate: this.$t('page.default.meta_title_template').toString(),
         };
     },
 })

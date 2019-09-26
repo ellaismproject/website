@@ -2,7 +2,7 @@
     <div class="mining">
         <section class="section">
             <div class="container">
-                <h1 class="title">Mining Ellaism</h1>
+                <h1 class="title">{{ $t('page.mining.title') }}</h1>
                 <hr>
             </div>
             <div class="container">

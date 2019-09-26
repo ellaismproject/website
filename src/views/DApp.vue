@@ -2,8 +2,8 @@
     <div class="dapp">
         <section class="section">
             <div class="container">
-                <h1 class="title">Ellaism DApps</h1>
-                <h2 class="subtitle">Decentralized Applications on the Ellaism Blockchain</h2>
+                <h1 class="title">{{ $t('page.dapp.title') }}</h1>
+                <h2 class="subtitle">{{ $t('page.dapp.sub_title') }}</h2>
                 <hr>
             </div>
             <div class="container">
@@ -49,7 +49,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'Ellaism DApps',
+            title: this.$t('page.dapp.meta_title').toString(),
         };
     },
 })

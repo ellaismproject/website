@@ -2,7 +2,7 @@
     <div class="wallet">
         <section class="section">
             <div class="container">
-                <h1 class="title">Ellaism Wallets</h1>
+                <h1 class="title">{{ $t('page.wallet.title') }}</h1>
                 <hr>
             </div>
             <div class="container">

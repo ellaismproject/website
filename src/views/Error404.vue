@@ -4,10 +4,10 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <h1 class="title">
-                        Not Found
+                        {{ $t('page.error404.title') }}
                     </h1>
                     <h2 class="subtitle">
-                        The requested page was not found.
+                        {{ $t('page.error404.sub_title') }}
                     </h2>
                 </div>
             </div>
@@ -21,7 +21,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'Not Found',
+            title: this.$t('page.error404.meta_title').toString(),
         };
     },
 })
