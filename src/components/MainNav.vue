@@ -14,23 +14,38 @@
                     <strong>{{ $t('navigation.getting_started_subnav.user') }}</strong>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'wallet' }">
-                    {{ $t('navigation.getting_started_subnav.wallet') }}
+                    <span>
+                        <b-icon pack="fas" icon="wallet"></b-icon>
+                        {{ $t('navigation.getting_started_subnav.wallet') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'mining' }">
-                    {{ $t('navigation.getting_started_subnav.mining') }}
+                    <span>
+                        <b-icon pack="fas" icon="microchip"></b-icon>
+                        {{ $t('navigation.getting_started_subnav.mining') }}
+                    </span>
                 </b-navbar-item>
                 <hr class="dropdown-divider">
                 <b-navbar-item tag="div">
                     <strong>{{ $t('navigation.getting_started_subnav.developer') }}</strong>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'testnet' }">
-                    {{ $t('navigation.getting_started_subnav.testnet') }}
+                    <span>
+                        <b-icon pack="fas" icon="server"></b-icon>
+                        {{ $t('navigation.getting_started_subnav.testnet') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'dapp' }">
-                    {{ $t('navigation.getting_started_subnav.dapp') }}
+                    <span>
+                        <b-icon pack="fas" icon="window-restore"></b-icon>
+                        {{ $t('navigation.getting_started_subnav.dapp') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'bot' }">
-                    {{ $t('navigation.getting_started_subnav.bot') }}
+                    <span>
+                        <b-icon pack="fas" icon="robot"></b-icon>
+                        {{ $t('navigation.getting_started_subnav.bot') }}
+                    </span>
                 </b-navbar-item>
             </b-navbar-dropdown>
             <b-navbar-item tag="router-link" :to="{ name: 'about' }">
@@ -41,26 +56,44 @@
                     <strong>{{ $t('navigation.community_subnav.official') }}</strong>
                 </b-navbar-item>
                 <b-navbar-item href="https://explorer.ellaism.io">
-                    {{ $t('navigation.community_subnav.block_explorer') }}
+                    <span>
+                        <b-icon pack="fas" icon="cubes"></b-icon>
+                        {{ $t('navigation.community_subnav.block_explorer') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item href="https://github.com/ellaism" rel="nofollow">
-                    {{ $t('navigation.community_subnav.github') }}
+                    <span>
+                        <b-icon pack="fab" icon="github"></b-icon>
+                        {{ $t('navigation.community_subnav.github') }}
+                    </span>
                 </b-navbar-item>
                 <hr class="dropdown-divider">
                 <b-navbar-item tag="div">
                     <strong>{{ $t('navigation.community_subnav.community') }}</strong>
                 </b-navbar-item>
                 <b-navbar-item href="https://discordapp.com/invite/gz9tURY" rel="nofollow">
-                    {{ $t('navigation.community_subnav.discord') }}
+                    <span>
+                        <b-icon pack="fab" icon="discord"></b-icon>
+                        {{ $t('navigation.community_subnav.discord') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item href="https://www.reddit.com/r/ellaism/" rel="nofollow">
-                    {{ $t('navigation.community_subnav.reddit') }}
+                    <span>
+                        <b-icon pack="fab" icon="reddit"></b-icon>
+                        {{ $t('navigation.community_subnav.reddit') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item href="https://t.me/ellaismcoin" rel="nofollow">
-                    {{ $t('navigation.community_subnav.telegram') }}
+                    <span>
+                        <b-icon pack="fab" icon="telegram"></b-icon>
+                        {{ $t('navigation.community_subnav.telegram') }}
+                    </span>
                 </b-navbar-item>
                 <b-navbar-item href="https://twitter.com/EllaismCore" rel="nofollow">
-                    {{ $t('navigation.community_subnav.twitter') }}
+                    <span>
+                        <b-icon pack="fab" icon="twitter"></b-icon>
+                        {{ $t('navigation.community_subnav.twitter') }}
+                    </span>
                 </b-navbar-item>
             </b-navbar-dropdown>
         </template>
@@ -95,5 +128,9 @@ export default class MainNav extends Vue {
     .navbar a.navbar-item.no-highlight:hover,
     .navbar a.navbar-item.no-highlight.is-active {
         background-color: transparent !important;
+    }
+
+    .navbar a.navbar-item .icon {
+        margin-right: 0.5rem;
     }
 </style>
