@@ -9,7 +9,7 @@
     "about": {
       "meta_title": "About @:ellaism",
       "title": "About @:ellaism",
-      "sub_title": "An EVM-based Network with Wasm Enabled"
+      "sub_title": "An Open-source Platform for Decentralized Applications"
     },
     "bot": {
       "meta_title": "@:ellaism Bots",
@@ -28,7 +28,14 @@
     "home": {
       "title": "@:ellaism",
       "sub_title": "An Open-source Platform for Decentralized Applications",
-      "testnet_information": "Testnet Information",
+      "pitch": {
+        "content": "Ellaism is an {evm}-based network with {wasm} enabled. We encourage developers, educators, and enthusiasts to test WebAssembly scripting on our testnet.",
+        "ethereum_virtual_machine": "Ethereum Virtual Machine",
+        "evm": "EVM",
+        "webassembly": "WebAssembly",
+        "wasm": "Wasm",
+        "button": "Testnet Information"
+      },
       "card_1": {
         "title": "EVM and Wasm Enabled",
         "content": "Ellaism enabled WebAssembly on August 4th, 2018, giving Developers the choice to use the EVM or gain experience running Wasm smart contracts in a production environment."
@@ -39,7 +46,7 @@
       },
       "card_3": {
         "title": "Community Driven",
-        "content": "We have a welcoming community and a donation-based development process. You have full control over the cryptocurrency you use, and can always choose a team you trust to develop @:ellaism."
+        "content": "We have a welcoming community and a donation-based development process. You have full control over the cryptocurrency you use, and can always choose a team you trust to develop @:(ellaism)."
       }
     },
     "mining": {

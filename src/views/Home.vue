@@ -15,13 +15,13 @@
         <section class="hero is-medium is-callout">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <p class="is-size-3-desktop has-text-weight-light">Ellaism is an <abbr
-                            title="Ethereum Virtual Machine">EVM</abbr>-based network with <abbr
-                            title="WebAssembly">Wasm</abbr> enabled. We encourage developers, educators, and enthusiasts
-                        to test WebAssembly scripting on our testnet.</p>
+                    <i18n path="page.home.pitch.content" tag="p" class="is-size-3-desktop has-text-weight-light">
+                        <abbr slot="evm" v-bind:title="this.$t('page.home.pitch.ethereum_virtual_machine')">{{ $t('page.home.pitch.evm') }}</abbr>
+                        <abbr slot="wasm" v-bind:title="this.$t('page.home.pitch.webassembly')">{{ $t('page.home.pitch.wasm') }}</abbr>
+                    </i18n>
                     <b-button tag="router-link" :to="{ name: 'testnet' }" class="is-size-4-desktop" type="is-dark"
                               icon-pack="fas" icon-left="info-circle">
-                        {{ $t('page.home.testnet_information') }}
+                        {{ $t('page.home.pitch.button') }}
                     </b-button>
                 </div>
             </div>
