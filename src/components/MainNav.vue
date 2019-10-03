@@ -51,6 +51,9 @@
             <b-navbar-item tag="router-link" :to="{ name: 'about' }">
                 {{ $t('navigation.about') }}
             </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ name: 'donate' }">
+                {{ $t('navigation.donate') }}
+            </b-navbar-item>
             <b-navbar-dropdown v-bind:label="$t('navigation.community')">
                 <b-navbar-item tag="div">
                     <strong>{{ $t('navigation.community_subnav.official') }}</strong>
@@ -61,7 +64,7 @@
                         {{ $t('navigation.community_subnav.block_explorer') }}
                     </span>
                 </b-navbar-item>
-                <b-navbar-item href="https://github.com/ellaism" rel="nofollow">
+                <b-navbar-item href="https://github.com/ellaismproject" rel="nofollow">
                     <span>
                         <b-icon pack="fab" icon="github"></b-icon>
                         {{ $t('navigation.community_subnav.github') }}
@@ -99,10 +102,8 @@
         </template>
         <template slot="end">
             <b-navbar-item href="https://explorer.ellaism.io">
+                <b-icon pack="fas" icon="cubes"></b-icon>
                 {{ $t('navigation.blockchain_explorer') }}
-            </b-navbar-item>
-            <b-navbar-item href="https://github.com/ellaism" rel="nofollow" class="no-highlight">
-                <i class="fab fa-github"></i>
             </b-navbar-item>
             <!--<LocaleChanger/>-->
         </template>

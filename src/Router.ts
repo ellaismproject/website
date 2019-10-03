@@ -45,6 +45,11 @@ export default new Router({
             component: () => import(/* webpackChunkName: "testnet" */ './views/Testnet.vue'),
         },
         {
+            path: '/donate',
+            name: 'donate',
+            component: () => import(/* webpackChunkName: "donate" */ './views/Donate.vue'),
+        },
+        {
             path: '*',
             component: () => import(/* webpackChunkName: "notfound" */ './views/Error404.vue'),
         },

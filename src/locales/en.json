@@ -57,6 +57,11 @@
       "meta_title": "@:ellaism Testnet",
       "title": "@:ellaism Testnet"
     },
+    "donate": {
+      "meta_title": "Donate to @:ellaism",
+      "title": "Donate to @:ellaism",
+      "sub_title": "Support @:ellaism Development Initiatives"
+    },
     "wallet": {
       "meta_title": "@:ellaism Wallets",
       "title": "@:ellaism Wallets"
@@ -75,6 +80,7 @@
       "bot": "Bots"
     },
     "about": "About",
+    "donate": "Donate",
     "community": "Community",
     "community_subnav": {
       "official": "Official",
