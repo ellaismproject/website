@@ -33,19 +33,6 @@
                                class="bl-text-secondary-underline">MyEtherWallet</a>:
                             Choose ELLA from the top-right dropdown menu.
                         </li>
-                        <li><a href="https://ellaism.github.io/ellawallet/" target="_blank"
-                               class="bl-text-secondary-underline">Ellaism
-                            Web Wallet </a>: Easiest wallet option besides MyEtherWallet. Hosted directly on Github.
-                            Supports
-                            Trezor hardware wallet.
-                        </li>
-                        <li>
-                            <a href="https://chrome.google.com/webstore/detail/myellawallet/bgfofdgebpphdhddggaggeafenegbjef"
-                               target="_blank" class="bl-text-secondary-underline">Ellaism Chrome Extension Wallet</a>:
-                            Runs in
-                            a sandbox in your Chrome browser. Functionality is similar to the web wallet, but
-                            technically safer.
-                        </li>
                     </ul>
 
                     <h4 class="bl-h4">Mobile</h4>
@@ -112,9 +99,7 @@
                         Mining
                     </h5>
                     <p>
-                        If you want to solo mine on the Ellaism network, follow the solo mining guide <a href="/mining/"
-                                                                                                         target="_blank"
-                                                                                                         class="bl-text-secondary-underline">here</a>
+                        If you want to solo mine on the Ellaism network, follow the solo mining guide <router-link :to="{name:'mining'}">here</router-link>
                         after you have started a full node.
                     </p>
                 </div>
@@ -129,7 +114,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'Ellaism Wallets',
+            title: this.$t('page.wallet.meta_title').toString(),
         };
     },
 })

@@ -194,7 +194,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'Mining Ellaism',
+            title: this.$t('page.mining.meta_title').toString(),
         };
     },
 })

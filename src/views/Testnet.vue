@@ -1,4 +1,4 @@
-<template xmlns="http://www.w3.org/1999/html">
+<template>
     <div class="testnet">
         <section class="section">
             <div class="container">
@@ -17,7 +17,7 @@
                         Ellaism has a Proof of Authority (PoA) testnet called “Shikinseki”.
                         <br>
                         To connect to the testnet, <a
-                            href="https://raw.githubusercontent.com/ellaism/parity-config/master/shikinseki.json"
+                            href="https://raw.githubusercontent.com/ellaismproject/parity-config/master/shikinseki.json"
                             class="bl-text-secondary">download</a> this file and run:
                     </p>
 
@@ -70,7 +70,7 @@ import {Component, Vue} from 'vue-property-decorator';
 @Component({
     metaInfo() {
         return {
-            title: 'Ellaism Testnet',
+            title: this.$t('page.testnet.meta_title').toString(),
         };
     },
 })

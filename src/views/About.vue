@@ -27,12 +27,7 @@
                     </ul>
                     <h4>Client and Wallet Development and Maintenance</h4>
                     <ul>
-                        <li>Develop the <a href="https://github.com/ellaism/go-ellaism">go-ellaism client</a> and <a
-                                href="https://github.com/ellaism/multi-geth">multi-geth client</a>
-                        </li>
-                        <li>Maintain support for <a href="https://github.com/ellaism/parity-config">Parity client</a>
-                        </li>
-                        <li>Develop the <a href="https://ellaism.github.io/ellawallet/">ellawallet</a></li>
+                        <li>Maintain support for <a href="https://github.com/ellaismproject/parity-config">Parity client</a></li>
                     </ul>
                     <h4>Ethereum Virtual Machine and Developer Tools</h4>
                     <ul>
@@ -62,7 +57,7 @@
                     <ul>
                         <li>Create a clearly defined editor process for protocol specifications</li>
                         <li>Fill and correct missing pieces in the current protocol <a
-                                href="https://github.com/ellaism/specs">specifications</a></li>
+                                href="https://github.com/ellaismproject/specs">specifications</a></li>
                     </ul>
                     <hr>
                     <h3>Principles</h3>
