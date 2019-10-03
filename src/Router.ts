@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/Home.vue';
 
 Vue.use(Router);
 
@@ -12,46 +11,46 @@ export default new Router({
         {
             path: '/',
             name: 'home',
-            component: Home,
+            component: () => import(/* webpackChunkName: "pages" */ './views/Home.vue'),
         },
         {
             path: '/about',
             name: 'about',
-            component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/About.vue'),
         },
         {
             path: '/wallets',
             name: 'wallet',
-            component: () => import(/* webpackChunkName: "wallet" */ './views/Wallet.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/Wallet.vue'),
         },
         {
             path: '/mining',
             name: 'mining',
-            component: () => import(/* webpackChunkName: "mining" */ './views/Mining.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/Mining.vue'),
         },
         {
             path: '/bots',
             name: 'bot',
-            component: () => import(/* webpackChunkName: "bot" */ './views/Bot.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/Bot.vue'),
         },
         {
             path: '/dapps',
             name: 'dapp',
-            component: () => import(/* webpackChunkName: "dapp" */ './views/DApp.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/DApp.vue'),
         },
         {
             path: '/testnet',
             name: 'testnet',
-            component: () => import(/* webpackChunkName: "testnet" */ './views/Testnet.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/Testnet.vue'),
         },
         {
             path: '/donate',
             name: 'donate',
-            component: () => import(/* webpackChunkName: "donate" */ './views/Donate.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/Donate.vue'),
         },
         {
             path: '*',
-            component: () => import(/* webpackChunkName: "notfound" */ './views/Error404.vue'),
+            component: () => import(/* webpackChunkName: "pages" */ './views/Error404.vue'),
         },
     ],
     scrollBehavior(to, from, savedPosition) {
