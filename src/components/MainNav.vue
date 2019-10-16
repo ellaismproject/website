@@ -92,7 +92,7 @@
                         {{ $t('navigation.community_subnav.telegram') }}
                     </span>
                 </b-navbar-item>
-                <b-navbar-item href="https://twitter.com/EllaismCore" rel="nofollow">
+                <b-navbar-item href="https://twitter.com/ellacommunity" rel="nofollow">
                     <span>
                         <b-icon pack="fab" icon="twitter"></b-icon>
                         {{ $t('navigation.community_subnav.twitter') }}
