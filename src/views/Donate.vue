@@ -74,7 +74,7 @@ export default class Donate extends Vue {
 }
 </script>
 
-<style>
+<style scoped>
     .mr {
         margin-right: 0.5rem;
     }
