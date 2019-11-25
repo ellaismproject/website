@@ -3,61 +3,40 @@
         <section class="section">
             <div class="container">
                 <h1 class="title">{{ $t('page.testnet.title') }}</h1>
+                <h2 class="subtitle">{{ $t('page.testnet.sub_title') }}</h2>
                 <hr>
             </div>
             <div class="container">
                 <div class="content">
-                    <h2>ProgPoW (Mtihani)</h2>
-                    <p>Help us test out ProgPoW mining. This testnet has mostly identical settings comparing Ellaism
-                        mainnet, but with ProgPOW transition happening at block 0. </p>
-                    <p><a href="https://wiki.ellaism.io/progpow">Setup instructions</a> are being developed by the
-                        community.</p>
-                    <h2>Shikinseki</h2>
-                    <p>
-                        Ellaism has a Proof of Authority (PoA) testnet called “Shikinseki”.
-                        <br>
-                        To connect to the testnet, <a
-                            href="https://raw.githubusercontent.com/ellaismproject/parity-config/master/shikinseki.json"
-                            class="bl-text-secondary">download</a> this file and run:
-                    </p>
-
-                    <div class="bl-highlight-wrapper"><pre class="highlight"><code>parity --chain shikinseki.json
-          </code></pre>
-                    </div>
-
-                    <p class="bl-pre-line">
-                        We choose PoA consensus algorithm because it provides a stable experience. It is known that PoW
-                        testnets
-                        can be unstable due to lack of nodes. And please note that the testnet might be restarted at any
-                        time
-                        with all states cleared. Don’t use it to store anything important.
-
-                        Additional facilities you can use on the testnet:
-                    </p>
-                    <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li>Explorer: <a href="https://explorer.testnet.ellaism.io" target="_blank"
-                                         class="bl-text-secondary-underline">https://explorer.testnet.ellaism.io</a>
-                        </li>
-                        <li>JSONRPC Endpoint: <a href="https://jsonrpc.testnet.ellaism.io" target="_blank"
-                                                 class="bl-text-secondary-underline">
-                            https://jsonrpc.testnet.ellaism.io
-                        </a></li>
+                    <h2>Autumnus</h2>
+                    <p>Ellaism has a Proof-of-Authority (PoA) testnet called "Autumnus". To connect to the testnet,
+                        download <a
+                                href="https://raw.githubusercontent.com/ellaismproject/parity-config/master/autumnus.json">this
+                            file</a> and run:</p>
+                    <pre>parity --chain autumnus.json</pre>
+                    <p>We choose the PoA consensus algorithm because it provides a stable experience. It is known that
+                        Proof-of-Work testnets can be unstable due to lack of nodes.</p>
+                    <b-notification type="is-warning" has-icon icon-pack="fa" :closable="false" role="alert">Please be
+                        aware that the Autumnus network can be restarted at any time with all states cleared. <strong>Do
+                            not use it to store anything important.</strong>
+                    </b-notification>
+                    <p>Additional facilities you can use on the testnet:</p>
+                    <ul>
+                        <li>Explorer: <a
+                                href="https://explorer.testnet.ellaism.io">https://explorer.testnet.ellaism.io</a> -
+                            <strong>Soon</strong></li>
+                        <li>JSONRPC Endpoint: <a href="https://jsonrpc.testnet.ellaism.io">https://jsonrpc.testnet.ellaism.io</a>
+                            - <strong>Soon</strong></li>
                     </ul>
-                    <h2 class="bl-h2">
-                        Shikinseki Faucet
-                    </h2>
-                    <p>
-                        To get some testnet token, go to the Discord channel, in #bots channel, run command <code
-                            class="highlighter-rouge">!testnet send &lt;address&gt;</code> For example:
-                    </p>
-
-                    <div class="bl-highlight-wrapper">
-                        <pre class="highlight"><code>!testnet send 0x2cbb505641e0c1b0ada0cf0b045014383de94576</code></pre>
-                    </div>
-
-                    <p>
-                        You will receive 10 testnet tokens each time issuing this command.
-                    </p>
+                    <h2>Faucet</h2>
+                    <p>We are currently working on setting up an automated faucet. If you need testnet tokens
+                        immediately, join us on Discord and ping majordutch. Otherwise send an email to <a
+                                href="mailto:core@ellaism.io">core@ellaism.io</a> with your testnet address and we will
+                        manually send you tokens.</p>
+                    <!--<p>To get testnet tokens, go to the Discord channel, in #bots channel, run command <code>!testnet
+                        send &lt;address&gt;</code> For example:</p>
+                    <pre>!testnet send 0x2cbb505641e0c1b0ada0cf0b045014383de94576</pre>
+                    <p>You will receive 10 testnet tokens each time issuing this command.</p>-->
                 </div>
             </div>
         </section>

@@ -55,7 +55,8 @@
     },
     "testnet": {
       "meta_title": "@:ellaism Testnet",
-      "title": "@:ellaism Testnet"
+      "title": "@:ellaism Testnet",
+      "sub_title": "Test DApps Before Deploying to Mainnet"
     },
     "donate": {
       "meta_title": "Donate to @:ellaism",
