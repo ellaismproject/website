@@ -13,7 +13,6 @@
                         MyEtherWallet, MyCrypto and MetaMask to interact with the network.
                     </p>
 
-                    <h5 id="wallet" class="bl-h5-common-spacer bl-h5">Wallet</h5>
                     <h4 class="bl-h4">Desktop</h4>
                     <ul class="bl-list-bullet bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
                         <li><a href="https://github.com/ellaism/shell/releases" target="_blank"
