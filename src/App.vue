@@ -16,28 +16,45 @@
 </template>
 
 <script lang="ts">
-import {Component, Vue} from 'vue-property-decorator';
-import MainNav from '@/components/MainNav.vue';
+    import {Component, Vue} from 'vue-property-decorator';
+    import MainNav from '@/components/MainNav.vue';
 
-@Component({
-    components: {
-        MainNav,
-    },
-    metaInfo() {
-        return {
-            title: this.$t('page.default.meta_title').toString(),
-            titleTemplate: this.$t('page.default.meta_title_template').toString(),
-        };
-    },
-})
-export default class App extends Vue {
-    get year(): string {
-        return new Date().getFullYear().toString();
+    @Component({
+        components: {
+            MainNav,
+        },
+        metaInfo() {
+            return {
+                title: this.$t('page.default.meta_title').toString(),
+                titleTemplate: this.$t('page.default.meta_title_template').toString(),
+            };
+        },
+    })
+    export default class App extends Vue {
+        get year(): string {
+            return new Date().getFullYear().toString();
+        }
     }
-}
 </script>
 
-<style>
+<style lang="scss">
+    @import "~bulma/sass/utilities/initial-variables";
+    @import "~bulma/sass/utilities/functions";
+
+    $ella: #3D996F;
+    $ella-invert: findColorInvert($ella);
+
+    @import "~bulma/sass/utilities/derived-variables";
+    $addColors: (
+            "ella":($ella, $ella-invert),
+    );
+    $colors: map-merge($colors, $addColors);
+
+    $navbar-item-img-max-height: 2.25rem;
+
+    @import "~bulma";
+    @import "~buefy/src/scss/buefy";
+
     body {
         cursor: default;
     }
