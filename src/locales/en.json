@@ -4,21 +4,21 @@
   "page": {
     "default": {
       "meta_title": "@:ellaism",
-      "meta_title_template": "%s | Open-source Platform for Decentralized Applications"
+      "meta_title_template": "%s - @:ellaism"
     },
     "about": {
-      "meta_title": "About @:ellaism",
+      "meta_title": "About",
       "title": "About @:ellaism",
-      "sub_title": "An Open-source Platform for Decentralized Applications"
+      "sub_title": "An open-source platform for decentralized applications."
     },
     "bot": {
-      "meta_title": "@:ellaism Bots",
+      "meta_title": "Bots",
       "title": "@:ellaism Bots"
     },
     "dapp": {
-      "meta_title": "@:ellaism DApps",
+      "meta_title": "DApps",
       "title": "@:ellaism DApps",
-      "sub_title": "Decentralized Applications on the @:ellaism Blockchain"
+      "sub_title": "Decentralized applications hosted on the @:ellaism blockchain."
     },
     "error404": {
       "meta_title": "Not Found",
@@ -26,8 +26,9 @@
       "sub_title": "The requested page was not found."
     },
     "home": {
-      "title": "@:ellaism",
-      "sub_title": "An Open-source Platform for Decentralized Applications",
+      "meta_title_template": "%s - An Open-source Platform for Decentralized Applications",
+      "summary": "@:ellaism is an open-source platform for decentralized applications.",
+      "about_ella": "What is @:ellaism?",
       "choose_wallet": "Choose your wallet",
       "pitch": {
         "content": "Ellaism is an {evm}-based network with {wasm} enabled. We encourage developers, educators, and enthusiasts to test WebAssembly scripting on our testnet.",
@@ -51,32 +52,35 @@
       }
     },
     "mining": {
-      "meta_title": "Mining @:ellaism",
+      "meta_title": "Mining",
       "title": "Mining @:ellaism"
     },
     "testnet": {
-      "meta_title": "@:ellaism Testnet",
+      "meta_title": "Testnet",
       "title": "@:ellaism Testnet",
-      "sub_title": "Test DApps Before Deploying to Mainnet"
+      "sub_title": "Test your DApps before deploying to mainnet."
     },
     "donate": {
-      "meta_title": "Donate to @:ellaism",
+      "meta_title": "Donate",
       "title": "Donate to @:ellaism",
-      "sub_title": "Support @:ellaism Development Initiatives"
+      "sub_title": "Help support @:ellaism development initiatives."
     },
     "wallet": {
-      "meta_title": "@:ellaism Wallets",
-      "title": "@:ellaism Wallets"
+      "meta_title": "Wallets",
+      "title": "Choose Your @:ellaism Wallet",
+      "sub_title": "Select a wallet to store your @:ellaism so you can start interacting with the network."
     }
   },
   "navigation": {
     "ellaism": "@:ellaism",
-    "getting_started": "Getting Started",
-    "getting_started_subnav": {
-      "user": "Users",
+    "individual": "Individuals",
+    "individual_subnav": {
+      "individual": "Individuals",
       "wallet": "Wallets",
-      "mining": "Mining",
-      "developer": "Developers",
+      "mining": "Mining"
+    },
+    "developer": "Developers",
+    "developer_subnav": {
       "testnet": "Testnet",
       "dapp": "DApps",
       "bot": "Bots"

@@ -9,42 +9,37 @@
             <LocaleChanger/>
         </template>
         <template slot="start">
-            <b-navbar-dropdown v-bind:label="$t('navigation.getting_started')">
-                <b-navbar-item tag="div">
-                    <strong>{{ $t('navigation.getting_started_subnav.user') }}</strong>
-                </b-navbar-item>
+            <b-navbar-dropdown v-bind:label="$t('navigation.individual')">
                 <b-navbar-item tag="router-link" :to="{ name: 'wallet' }">
                     <span>
                         <b-icon pack="fas" icon="wallet"/>
-                        {{ $t('navigation.getting_started_subnav.wallet') }}
+                        {{ $t('navigation.individual_subnav.wallet') }}
                     </span>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'mining' }">
                     <span>
                         <b-icon pack="fas" icon="microchip"/>
-                        {{ $t('navigation.getting_started_subnav.mining') }}
+                        {{ $t('navigation.individual_subnav.mining') }}
                     </span>
                 </b-navbar-item>
-                <hr class="dropdown-divider">
-                <b-navbar-item tag="div">
-                    <strong>{{ $t('navigation.getting_started_subnav.developer') }}</strong>
-                </b-navbar-item>
+            </b-navbar-dropdown>
+            <b-navbar-dropdown v-bind:label="$t('navigation.developer')">
                 <b-navbar-item tag="router-link" :to="{ name: 'testnet' }">
                     <span>
                         <b-icon pack="fas" icon="server"/>
-                        {{ $t('navigation.getting_started_subnav.testnet') }}
+                        {{ $t('navigation.developer_subnav.testnet') }}
                     </span>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'dapp' }">
                     <span>
                         <b-icon pack="fas" icon="window-restore"/>
-                        {{ $t('navigation.getting_started_subnav.dapp') }}
+                        {{ $t('navigation.developer_subnav.dapp') }}
                     </span>
                 </b-navbar-item>
                 <b-navbar-item tag="router-link" :to="{ name: 'bot' }">
                     <span>
                         <b-icon pack="fas" icon="robot"/>
-                        {{ $t('navigation.getting_started_subnav.bot') }}
+                        {{ $t('navigation.developer_subnav.bot') }}
                     </span>
                 </b-navbar-item>
             </b-navbar-dropdown>
