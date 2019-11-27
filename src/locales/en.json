@@ -28,6 +28,7 @@
     "home": {
       "title": "@:ellaism",
       "sub_title": "An Open-source Platform for Decentralized Applications",
+      "choose_wallet": "Choose your wallet",
       "pitch": {
         "content": "Ellaism is an {evm}-based network with {wasm} enabled. We encourage developers, educators, and enthusiasts to test WebAssembly scripting on our testnet.",
         "ethereum_virtual_machine": "Ethereum Virtual Machine",
@@ -82,8 +83,8 @@
     },
     "about": "About",
     "donate": "Donate",
-    "community": "Community",
-    "community_subnav": {
+    "resource": "Resources",
+    "resource_subnav": {
       "official": "Official",
       "block_explorer": "@:ellaism Block Explorer",
       "github": "@:ellaism GitHub",
