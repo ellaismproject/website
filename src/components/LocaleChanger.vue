@@ -9,11 +9,17 @@
 </template>
 
 <script lang="ts">
-import {Component, Vue, PropSync} from 'vue-property-decorator';
+    import {Component, Vue, PropSync} from 'vue-property-decorator';
 
-@Component({})
-export default class LocaleChanger extends Vue {
-    @PropSync('languages', {default: () => ['en', 'de']})
-    public readonly syncedLanguages!: string[];
-}
+    @Component({})
+    export default class LocaleChanger extends Vue {
+        @PropSync('languages', {default: () => ['en', 'de']})
+        public readonly syncedLanguages!: string[];
+    }
 </script>
+
+<style scoped>
+    .select select {
+        border: none;
+    }
+</style>

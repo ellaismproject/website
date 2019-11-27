@@ -1,11 +1,14 @@
 <template>
-    <div class="transparency">
-        <section class="section">
-            <div class="container">
-                <h1 class="title">{{ $t('page.donate.title') }}</h1>
-                <h2 class="subtitle">{{ $t('page.donate.sub_title') }}</h2>
-                <hr>
+    <div class="donate">
+        <div class="hero is-medium is-ella">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">{{ $t('page.donate.title') }}</h1>
+                    <h2 class="subtitle">{{ $t('page.donate.sub_title') }}</h2>
+                </div>
             </div>
+        </div>
+        <section class="section">
             <div class="container">
                 <div class="content">
                     <p>Ellaism did not have an ICO and is a coin without a pre-mine. Donations are welcomed to keep

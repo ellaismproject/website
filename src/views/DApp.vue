@@ -1,11 +1,14 @@
 <template>
     <div class="dapp">
-        <section class="section">
-            <div class="container">
-                <h1 class="title">{{ $t('page.dapp.title') }}</h1>
-                <h2 class="subtitle">{{ $t('page.dapp.sub_title') }}</h2>
-                <hr>
+        <div class="hero is-medium is-ella">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">{{ $t('page.dapp.title') }}</h1>
+                    <h2 class="subtitle">{{ $t('page.dapp.sub_title') }}</h2>
+                </div>
             </div>
+        </div>
+        <section class="section">
             <div class="container">
                 <div class="content">
                     <p>The following dapps are currently deployed on the Ellaism network:</p>

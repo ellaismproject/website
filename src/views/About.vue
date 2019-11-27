@@ -1,11 +1,14 @@
 <template>
     <div class="about">
-        <section class="section">
-            <div class="container">
-                <h1 class="title">{{ $t('page.about.title') }}</h1>
-                <h2 class="subtitle">{{ $t('page.about.sub_title') }}</h2>
-                <hr>
+        <div class="hero is-medium is-ella">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">{{ $t('page.about.title') }}</h1>
+                    <h2 class="subtitle">{{ $t('page.about.sub_title') }}</h2>
+                </div>
             </div>
+        </div>
+        <section class="section">
             <div class="container">
                 <div class="content">
                     <p>Ellaism is an <abbr title="Ethereum Virtual Machine">EVM</abbr>-based network with <abbr
