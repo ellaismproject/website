@@ -61,17 +61,17 @@
 </template>
 
 <script lang="ts">
-import {Component, Vue} from 'vue-property-decorator';
+    import {Component, Vue} from 'vue-property-decorator';
 
-@Component({
-    metaInfo() {
-        return {
-            title: this.$t('page.donate.meta_title').toString(),
-        };
-    },
-})
-export default class Donate extends Vue {
-}
+    @Component({
+        metaInfo() {
+            return {
+                title: this.$t('page.donate.meta_title').toString(),
+            };
+        },
+    })
+    export default class Donate extends Vue {
+    }
 </script>
 
 <style scoped>

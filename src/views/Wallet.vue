@@ -13,15 +13,6 @@
                         MyEtherWallet, MyCrypto and MetaMask to interact with the network.
                     </p>
 
-                    <h4 class="bl-h4">Desktop</h4>
-                    <ul class="bl-list-bullet bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li><a href="https://github.com/ellaism/shell/releases" target="_blank"
-                               class="bl-text-secondary-underline">Ellaism Shell</a>: Ellaism-branded desktop wallet and
-                            dapp
-                            browser.
-                        </li>
-                    </ul>
-
                     <h4 class="bl-h4">Web</h4>
                     <ul class="bl-list-bullet bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
                         <li><a href="https://mycrypto.com/account" target="_blank"
@@ -98,7 +89,8 @@
                         Mining
                     </h5>
                     <p>
-                        If you want to solo mine on the Ellaism network, follow the solo mining guide <router-link :to="{name:'mining'}">here</router-link>
+                        If you want to solo mine on the Ellaism network, follow the solo mining guide
+                        <router-link :to="{name:'mining'}">here</router-link>
                         after you have started a full node.
                     </p>
                 </div>
@@ -108,15 +100,15 @@
 </template>
 
 <script lang="ts">
-import {Component, Vue} from 'vue-property-decorator';
+    import {Component, Vue} from 'vue-property-decorator';
 
-@Component({
-    metaInfo() {
-        return {
-            title: this.$t('page.wallet.meta_title').toString(),
-        };
-    },
-})
-export default class Wallet extends Vue {
-}
+    @Component({
+        metaInfo() {
+            return {
+                title: this.$t('page.wallet.meta_title').toString(),
+            };
+        },
+    })
+    export default class Wallet extends Vue {
+    }
 </script>

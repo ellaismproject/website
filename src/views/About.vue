@@ -27,7 +27,8 @@
                     </ul>
                     <h4>Client and Wallet Development and Maintenance</h4>
                     <ul>
-                        <li>Maintain support for <a href="https://github.com/ellaismproject/parity-config">Parity client</a></li>
+                        <li>Maintain support for <a href="https://github.com/ellaismproject/parity-config">Parity
+                            client</a></li>
                     </ul>
                     <h4>Ethereum Virtual Machine and Developer Tools</h4>
                     <ul>
@@ -92,15 +93,15 @@
 </template>
 
 <script lang="ts">
-import {Component, Vue} from 'vue-property-decorator';
+    import {Component, Vue} from 'vue-property-decorator';
 
-@Component({
-    metaInfo() {
-        return {
-            title: this.$t('page.about.meta_title').toString(),
-        };
-    },
-})
-export default class About extends Vue {
-}
+    @Component({
+        metaInfo() {
+            return {
+                title: this.$t('page.about.meta_title').toString(),
+            };
+        },
+    })
+    export default class About extends Vue {
+    }
 </script>
