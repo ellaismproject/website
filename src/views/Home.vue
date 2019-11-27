@@ -1,13 +1,21 @@
 <template>
     <div class="home">
-        <section class="hero is-fullheight">
+        <section class="hero is-medium">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <p class="hero-summary">Ellaism is an open-source platform for decentralized applications.</p>
+                    <p class="hero-summary is-size-1-desktop is-size-3">{{ $t('page.home.summary') }}</p>
+                    <div class="buttons">
+                        <b-button type="is-ella" size="is-medium" tag="router-link" :to="{ name: 'about' }">
+                            {{ $t('page.home.about_ella') }}
+                        </b-button>
+                        <b-button type="is-ella" size="is-medium" tag="router-link" :to="{ name: 'wallet' }" outlined>
+                            {{ $t('page.home.choose_wallet') }}
+                        </b-button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="hero is-medium is-ella">
+        <section class="hero is-medium is-ella overview">
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <i18n path="page.home.pitch.content" tag="p" class="is-size-3-desktop has-text-weight-light">
@@ -61,11 +69,34 @@
     </div>
 </template>
 
+<script lang="ts">
+    import {Component, Vue} from 'vue-property-decorator';
+
+    @Component({
+        metaInfo() {
+            return {
+                titleTemplate: this.$t('page.home.meta_title_template').toString(),
+            };
+        },
+    })
+    export default class Home extends Vue {
+    }
+</script>
+
 <style scoped>
+    .overview {
+        padding-top: 130px;
+        background: url(../assets/home-overview-divider.svg) top no-repeat;
+        background-size: cover;
+    }
+
     .hero-summary {
-        max-width: 770px;
-        margin: 0 auto;
-        font-size: 3rem;
+        max-width: 750px;
+        margin: 0 auto 1.75rem;
         font-weight: lighter;
+    }
+
+    .hero .buttons {
+        justify-content: center;
     }
 </style>
