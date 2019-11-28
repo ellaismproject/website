@@ -1,13 +1,6 @@
 <template>
     <div class="bot">
-        <div class="hero is-medium is-ella">
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title">{{ $t('page.bot.title') }}</h1>
-                    <h2 class="subtitle">{{ $t('page.bot.sub_title') }}</h2>
-                </div>
-            </div>
-        </div>
+        <PageHeading :title="$t('page.bot.title')" :subtitle="$t('page.bot.subtitle')"/>
         <section class="section">
             <div class="container">
                 <div class="content">
@@ -168,8 +161,10 @@
 
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
+    import PageHeading from '@/components/PageHeading.vue';
 
     @Component({
+        components: {PageHeading},
         metaInfo() {
             return {
                 title: this.$t('page.bot.meta_title').toString(),
