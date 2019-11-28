@@ -13,7 +13,7 @@
 
     @Component({})
     export default class LocaleChanger extends Vue {
-        @PropSync('languages', {default: () => ['en', 'de']})
+        @PropSync('languages', {default: () => ['en']})
         public readonly syncedLanguages!: string[];
     }
 </script>
