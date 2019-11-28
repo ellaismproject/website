@@ -9,7 +9,7 @@
     "about": {
       "meta_title": "About",
       "title": "About @:ellaism",
-      "sub_title": "An open-source platform for decentralized applications."
+      "subtitle": "An open-source platform for decentralized applications."
     },
     "bot": {
       "meta_title": "Bots",
@@ -18,12 +18,12 @@
     "dapp": {
       "meta_title": "DApps",
       "title": "@:ellaism DApps",
-      "sub_title": "Decentralized applications hosted on the @:ellaism blockchain."
+      "subtitle": "Decentralized applications hosted on the @:ellaism blockchain."
     },
     "error404": {
       "meta_title": "Not Found",
       "title": "Not Found",
-      "sub_title": "The requested page was not found."
+      "subtitle": "The requested page was not found."
     },
     "home": {
       "meta_title_template": "%s - An Open-source Platform for Decentralized Applications",
@@ -58,17 +58,17 @@
     "testnet": {
       "meta_title": "Testnet",
       "title": "@:ellaism Testnet",
-      "sub_title": "Test your DApps before deploying to mainnet."
+      "subtitle": "Test your DApps before deploying to mainnet."
     },
     "donate": {
       "meta_title": "Donate",
       "title": "Donate to @:ellaism",
-      "sub_title": "Help support @:ellaism development initiatives."
+      "subtitle": "Help support @:ellaism development initiatives."
     },
     "wallet": {
       "meta_title": "Wallets",
       "title": "Choose Your @:ellaism Wallet",
-      "sub_title": "Select a wallet to store your @:ellaism so you can start interacting with the network."
+      "subtitle": "Select a wallet to store your @:ellaism so you can start interacting with the network."
     }
   },
   "navigation": {
