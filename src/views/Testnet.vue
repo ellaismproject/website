@@ -11,7 +11,6 @@
         <section class="section">
             <div class="container">
                 <div class="content">
-                    <h2>Autumnus</h2>
                     <p>Ellaism has a Proof-of-Authority (PoA) testnet called "Autumnus". To connect to the testnet,
                         download <a
                                 href="https://raw.githubusercontent.com/ellaismproject/parity-config/master/autumnus.json">this

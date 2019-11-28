@@ -18,7 +18,7 @@
         <section class="hero is-medium is-ella overview">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <i18n path="page.home.pitch.content" tag="p" class="is-size-3-desktop has-text-weight-light">
+                    <i18n path="page.home.pitch.content" tag="p" class="is-size-3-desktop has-text-weight-light" style="margin-bottom:1.75rem;">
                         <abbr slot="evm" v-bind:title="this.$t('page.home.pitch.ethereum_virtual_machine')">{{
                             $t('page.home.pitch.evm') }}</abbr>
                         <abbr slot="wasm" v-bind:title="this.$t('page.home.pitch.webassembly')">{{
