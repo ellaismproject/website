@@ -91,6 +91,7 @@
     "resource_subnav": {
       "official": "Official",
       "block_explorer": "@:ellaism Block Explorer",
+      "network_status": "Network Status",
       "github": "@:ellaism GitHub",
       "community": "Community",
       "discord": "Discord",

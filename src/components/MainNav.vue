@@ -53,6 +53,12 @@
                         {{ $t('navigation.resource_subnav.block_explorer') }}
                     </span>
                 </b-navbar-item>
+                <b-navbar-item href="https://stats.ellascout.com">
+                    <span>
+                        <b-icon pack="fas" icon="heartbeat"/>
+                        {{ $t('navigation.resource_subnav.network_status') }}
+                    </span>
+                </b-navbar-item>
                 <b-navbar-item href="https://github.com/ellaismproject" rel="nofollow">
                     <span>
                         <b-icon pack="fab" icon="github"/>
