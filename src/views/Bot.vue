@@ -1,11 +1,11 @@
 <template>
     <div class="bot">
-        <PageHeading :title="$t('page.bot.title')" :subtitle="$t('page.bot.subtitle')"/>
+        <PageHeading title-key="page.bot.title" subtitle-key="page.bot.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">
                     <p>The Ellaism <a href="https://discordapp.com/invite/gz9tURY">Discord</a> server has several bots
-                        to interact with the network. Here’re some documentations of how you can use them.</p>
+                        to interact with the network. Below you will find documentation on how you can use them.</p>
                     <h2>Twitter Faucet</h2>
                     <p>
                         <code class="highlighter-rouge">https://twitter.com/ellaismcore/status/958926185991254016</code>

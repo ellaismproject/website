@@ -1,6 +1,6 @@
 <template>
     <div class="donate">
-        <PageHeading :title="$t('page.donate.title')" :subtitle="$t('page.donate.subtitle')"/>
+        <PageHeading title-key="page.donate.title" subtitle-key="page.donate.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">

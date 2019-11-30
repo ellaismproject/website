@@ -1,6 +1,6 @@
 <template>
     <div class="mining">
-        <PageHeading :title="$t('page.mining.title')" :subtitle="$t('page.mining.subtitle')"/>
+        <PageHeading title-key="page.mining.title" subtitle-key="page.mining.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">

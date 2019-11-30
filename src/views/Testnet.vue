@@ -1,6 +1,6 @@
 <template>
     <div class="testnet">
-        <PageHeading :title="$t('page.testnet.title')" :subtitle="$t('page.testnet.subtitle')"/>
+        <PageHeading title-key="page.testnet.title" subtitle-key="page.testnet.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">

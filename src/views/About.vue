@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <PageHeading :title="$t('page.about.title')" :subtitle="$t('page.about.subtitle')"/>
+        <PageHeading title-key="page.about.title" subtitle-key="page.about.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">

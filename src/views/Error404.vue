@@ -7,7 +7,7 @@
                         {{ $t('page.error404.title') }}
                     </h1>
                     <h2 class="subtitle">
-                        {{ $t('page.error404.sub_title') }}
+                        {{ $t('page.error404.subtitle') }}
                     </h2>
                 </div>
             </div>

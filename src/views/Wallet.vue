@@ -1,6 +1,6 @@
 <template>
     <div class="wallet">
-        <PageHeading :title="$t('page.wallet.title')" :subtitle="$t('page.wallet.subtitle')"/>
+        <PageHeading title-key="page.wallet.title" subtitle-key="page.wallet.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">

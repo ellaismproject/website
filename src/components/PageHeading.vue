@@ -2,8 +2,8 @@
     <div class="hero is-medium is-ella is-heading">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title">{{ syncedTitle }}</h1>
-                <h2 class="subtitle">{{ syncedSubtitle }}</h2>
+                <h1 class="title">{{ $t(syncedTitleKey) }}</h1>
+                <h2 class="subtitle">{{ $t(syncedSubtitleKey) }}</h2>
             </div>
         </div>
     </div>
@@ -14,11 +14,11 @@
 
     @Component({})
     export default class PageHeading extends Vue {
-        @PropSync('title')
-        public readonly syncedTitle!: string;
+        @PropSync('titleKey')
+        public readonly syncedTitleKey!: string;
 
-        @PropSync('subtitle')
-        public readonly syncedSubtitle!: string;
+        @PropSync('subtitleKey')
+        public readonly syncedSubtitleKey!: string;
     }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="dapp">
-        <PageHeading :title="$t('page.dapp.title')" :subtitle="$t('page.dapp.subtitle')"/>
+        <PageHeading title-key="page.dapp.title" subtitle-key="page.dapp.subtitle"/>
         <section class="section">
             <div class="container">
                 <div class="content">
