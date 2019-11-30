@@ -13,7 +13,8 @@
     },
     "bot": {
       "meta_title": "Bots",
-      "title": "@:ellaism Bots"
+      "title": "@:ellaism Bots",
+      "subtitle": "Interact with the @:ellaism blockchain."
     },
     "dapp": {
       "meta_title": "DApps",
@@ -53,7 +54,8 @@
     },
     "mining": {
       "meta_title": "Mining",
-      "title": "Mining @:ellaism"
+      "title": "Mining @:ellaism",
+      "subtitle": "Help secure the @:ellaism network."
     },
     "testnet": {
       "meta_title": "Testnet",
