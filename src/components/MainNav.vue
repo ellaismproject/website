@@ -1,5 +1,5 @@
 <template>
-    <b-navbar wrapper-class="container">
+    <b-navbar class="is-nav" wrapper-class="container">
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ name: 'home' }">
                 <img src="../assets/ellaism-logo-color-name.svg" v-bind:alt="$t('navigation.ellaism')"/>
@@ -116,9 +116,9 @@
 </script>
 
 <style>
-    .navbar.is-ella .navbar-brand > a.navbar-item:focus,
-    .navbar.is-ella .navbar-brand > a.navbar-item:hover,
-    .navbar.is-ella .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-nav .navbar-brand > a.navbar-item:focus,
+    .navbar.is-nav .navbar-brand > a.navbar-item:hover,
+    .navbar.is-nav .navbar-brand > a.navbar-item.is-active,
     .navbar a.navbar-item.no-highlight:focus,
     .navbar a.navbar-item.no-highlight:hover,
     .navbar a.navbar-item.no-highlight.is-active {

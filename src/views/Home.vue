@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <section class="hero is-medium is-intro">
+        <section class="hero is-large is-intro">
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <p class="hero-summary is-size-1-desktop is-size-3">{{ $t('page.home.summary') }}</p>
@@ -87,14 +87,14 @@
     @import '~bulma/sass/utilities/initial-variables';
 
     .is-overview {
-        padding-top: 60px;
+        padding-top: 30px;
         background: url(../assets/home-overview-divider.svg) top no-repeat;
         background-size: cover;
     }
 
     @media screen and (min-width: $desktop) {
         .is-overview {
-            padding-top: 100px;
+            padding-top: 50px;
         }
     }
 

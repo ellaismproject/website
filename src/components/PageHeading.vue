@@ -26,14 +26,14 @@
     @import '~bulma/sass/utilities/initial-variables';
 
     .is-heading {
-        padding-bottom: 60px;
+        padding-bottom: 30px;
         background: url(../assets/page-heading-divider.svg) bottom no-repeat;
         background-size: cover;
     }
 
     @media screen and (min-width: $desktop) {
         .is-heading {
-            padding-bottom: 100px;
+            padding-bottom: 60px;
         }
     }
 </style>
