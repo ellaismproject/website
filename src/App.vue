@@ -1,8 +1,6 @@
 <template>
     <div id="app">
-        <header>
-            <MainNav/>
-        </header>
+        <HeaderContent/>
 
         <router-view/>
 
@@ -17,11 +15,12 @@
 
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
-    import MainNav from '@/components/MainNav.vue';
+    import HeaderContent from '@/components/HeaderContent.vue';
 
     @Component({
         components: {
             MainNav,
+            HeaderContent,
         },
         metaInfo() {
             return {
