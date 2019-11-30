@@ -1,5 +1,6 @@
 {
   "ellaism": "Ellaism",
+  "copyright": "{symbol} @:ellaism Project {year} Released under the MIT license",
   "footer_message": "@:ellaism is not funded nor controlled by any entity, it is an open-source platform for decentralized applications.",
   "page": {
     "default": {
@@ -74,7 +75,6 @@
     }
   },
   "navigation": {
-    "ellaism": "@:ellaism",
     "individual": "Individuals",
     "individual_subnav": {
       "individual": "Individuals",
