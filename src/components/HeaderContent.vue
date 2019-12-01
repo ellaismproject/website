@@ -51,10 +51,16 @@
                     <b-navbar-item href="https://explorer.ellaism.io">
                     <span>
                         <b-icon pack="fas" icon="cubes"/>
-                        {{ $t('navigation.resource_subnav.block_explorer') }}
+                        {{ $t('navigation.resource_subnav.block_explorer_1') }}
                     </span>
                     </b-navbar-item>
-                    <b-navbar-item href="https://stats.ellascout.com">
+                    <b-navbar-item href="https://limax-explorer.outdoordevs.com/" rel="nofollow">
+                    <span>
+                        <b-icon pack="fas" icon="cubes"/>
+                        {{ $t('navigation.resource_subnav.block_explorer_2') }}
+                    </span>
+                    </b-navbar-item>
+                    <b-navbar-item href="https://stats.ellascout.com" rel="nofollow">
                     <span>
                         <b-icon pack="fas" icon="heartbeat"/>
                         {{ $t('navigation.resource_subnav.network_status') }}
