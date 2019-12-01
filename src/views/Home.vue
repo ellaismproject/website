@@ -83,33 +83,28 @@
     }
 </script>
 
-<style lang="scss" scoped>
-    @import '~bulma/sass/utilities/initial-variables';
+<style lang="sass" scoped>
+    @import '~bulma/sass/utilities/all'
 
-    .is-overview {
-        padding-top: 30px;
-        background: url(../assets/home-overview-divider.svg) top no-repeat;
-        background-size: cover;
-    }
+    .is-overview
+        padding-top: 30px
+        background: url(../assets/home-overview-divider.svg) top no-repeat
+        background-size: cover
 
-    @media screen and (min-width: $desktop) {
-        .is-overview {
-            padding-top: 50px;
-        }
-    }
+    +desktop
+        .is-overview
+            padding-top: 50px
 
-    .is-intro .hero-summary {
-        max-width: 750px;
-        margin: 0 auto 1.75rem;
-        font-weight: lighter;
-    }
+    .is-intro
+        .hero-summary
+            max-width: 750px
+            margin: 0 auto 1.75rem
+            font-weight: lighter
 
-    .is-intro .buttons {
-        justify-content: center;
-    }
+        .buttons
+            justify-content: center
 
-    .is-pitch {
-        margin-bottom: 1.75rem;
-        font-weight: lighter;
-    }
+    .is-pitch
+        margin-bottom: 1.75rem
+        font-weight: lighter
 </style>

@@ -22,18 +22,15 @@
     }
 </script>
 
-<style lang="scss" scoped>
-    @import '~bulma/sass/utilities/initial-variables';
+<style lang="sass" scoped>
+    @import '~bulma/sass/utilities/all'
 
-    .is-heading {
-        padding-bottom: 30px;
-        background: url(../assets/page-heading-divider.svg) bottom no-repeat;
-        background-size: cover;
-    }
+    .is-heading
+        padding-bottom: 30px
+        background: url(../assets/page-heading-divider.svg) bottom no-repeat
+        background-size: cover
 
-    @media screen and (min-width: $desktop) {
-        .is-heading {
-            padding-bottom: 60px;
-        }
-    }
+    +desktop
+        .is-heading
+            padding-bottom: 60px
 </style>
