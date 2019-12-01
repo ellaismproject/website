@@ -3,7 +3,7 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title">{{ $t(syncedTitleKey) }}</h1>
-                <h2 class="subtitle">{{ $t(syncedSubtitleKey) }}</h2>
+                <h2 class="subtitle" v-if="syncedSubtitleKey">{{ $t(syncedSubtitleKey) }}</h2>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@
         public readonly syncedTitleKey!: string;
 
         @PropSync('subtitleKey')
-        public readonly syncedSubtitleKey!: string;
+        public readonly syncedSubtitleKey?: string;
     }
 </script>
 
