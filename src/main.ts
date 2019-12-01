@@ -3,11 +3,15 @@ import App from './App.vue';
 import Router from './Router';
 import VueMeta from 'vue-meta';
 import i18n from '@/plugins/i18n';
+import VueAnalytics from 'vue-analytics';
 import Buefy from 'buefy';
 
 Vue.use(VueMeta, {
     refreshOnceOnNavigation: true,
 });
+Vue.use(VueAnalytics, {
+    id: process.env.VUE_APP_GA_MEASUREMENT_ID,
+}, Router);
 Vue.use(Buefy);
 Vue.config.productionTip = false;
 
