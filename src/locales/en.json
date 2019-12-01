@@ -1,7 +1,5 @@
 {
   "ellaism": "Ellaism",
-  "copyright": "{symbol} @:ellaism Project {year} Released under the MIT license",
-  "footer_message": "@:ellaism is not funded nor controlled by any entity, it is an open-source platform for decentralized applications.",
   "page": {
     "default": {
       "meta_title": "@:ellaism",
@@ -81,7 +79,6 @@
   "navigation": {
     "individual": "Individuals",
     "individual_subnav": {
-      "individual": "Individuals",
       "wallet": "Wallets",
       "mining": "Mining"
     },
@@ -105,7 +102,39 @@
       "reddit": "Reddit",
       "telegram": "Telegram",
       "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "copyright": "{symbol} @:ellaism Project {year} Released under the MIT license",
+    "statement": {
+      "title": "Statement",
+      "content": "@:ellaism is not funded nor controlled by any entity, it is an open-source platform for decentralized applications."
     },
-    "blockchain_explorer": "Blockchain Explorer"
+    "network_status": "Network Status",
+    "navigation": {
+      "individual": "Individuals:",
+      "individual_subnav": {
+        "wallet": "Wallets",
+        "mining": "Mining"
+      },
+      "developer": "Developers:",
+      "developer_subnav": {
+        "testnet": "Testnet",
+        "dapp": "DApps",
+        "bot": "Bots"
+      },
+      "participate": "Participate:",
+      "participate_subnav": {
+        "testnet": "Testnet",
+        "dapp": "DApps",
+        "bot": "Bots"
+      },
+      "other": "Other:",
+      "other_subnav": {
+        "about": "About",
+        "donate": "Donate",
+        "privacy": "Privacy Policy"
+      }
+    }
   }
 }
