@@ -49,6 +49,11 @@ export default new Router({
             component: () => import(/* webpackChunkName: "pages" */ './views/Donate.vue'),
         },
         {
+            path: '/privacy',
+            name: 'privacy',
+            component: () => import(/* webpackChunkName: "pages" */ './views/Privacy.vue'),
+        },
+        {
             path: '*',
             component: () => import(/* webpackChunkName: "pages" */ './views/Error404.vue'),
         },

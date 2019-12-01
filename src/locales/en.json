@@ -72,6 +72,10 @@
       "meta_title": "Wallets",
       "title": "Choose Your @:ellaism Wallet",
       "subtitle": "Select a wallet to store your @:ellaism so you can start interacting with the network."
+    },
+    "privacy": {
+      "meta_title": "Privacy Policy",
+      "title": "Privacy Policy"
     }
   },
   "navigation": {
