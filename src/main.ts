@@ -11,7 +11,8 @@ Vue.use(VueMeta, {
 });
 Vue.use(VueAnalytics, {
     id: process.env.VUE_APP_GA_MEASUREMENT_ID,
-}, Router);
+    router: Router,
+});
 Vue.use(Buefy);
 Vue.config.productionTip = false;
 
