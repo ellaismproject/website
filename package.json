@@ -1,6 +1,6 @@
 {
   "name": "ellaism.io",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,14 +10,15 @@
   },
   "dependencies": {
     "buefy": "^0.8.8",
-    "core-js": "^3.4.7",
-    "vue": "^2.6.10",
-    "vue-analytics": "^5.18.0",
+    "core-js": "^3.6.0",
+    "vue": "^2.6.11",
+    "vue-analytics": "^5.20.1",
     "vue-class-component": "^7.0.2",
-    "vue-i18n": "^8.15.1",
+    "vue-i18n": "^8.15.3",
     "vue-meta": "^2.3.1",
     "vue-property-decorator": "^8.3.0",
-    "vue-router": "^3.0.3"
+    "vue-router": "^3.0.3",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.1",
@@ -26,7 +27,7 @@
     "filemanager-webpack-plugin": "^2.0.5",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
-    "typescript": "^3.7.2",
-    "vue-template-compiler": "^2.6.10"
+    "typescript": "^3.7.3",
+    "vue-template-compiler": "^2.6.11"
   }
 }
