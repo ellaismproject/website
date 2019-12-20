@@ -88,7 +88,7 @@
                         {{ $t('navigation.resource_subnav.reddit') }}
                     </span>
                     </b-navbar-item>
-                    <b-navbar-item href="https://t.me/ellaismcoin" rel="nofollow">
+                    <b-navbar-item href="https://t.me/ellaismproject" rel="nofollow">
                     <span>
                         <b-icon pack="fab" icon="telegram"/>
                         {{ $t('navigation.resource_subnav.telegram') }}
