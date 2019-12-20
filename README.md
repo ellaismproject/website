@@ -1,15 +1,9 @@
-# Ellaism Website
+# ![Ellaism](doc/logo.png) Ellaism Website
 
-https://ellaism.io
+A primary online resource for the Ellaism community.
 
-## Contributing to this project
-
-Anyone and everyone is welcome to contribute. Please take a moment to
-review the [guidelines for contributing](CONTRIBUTING.md).
-
-* [Bug reports](CONTRIBUTING.md#bugs)
-* [Feature requests](CONTRIBUTING.md#features)
-* [Pull requests](CONTRIBUTING.md#pull-requests)
+![GitHub](https://img.shields.io/github/license/ellaismproject/Cinder)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 ## Project setup
 ```
@@ -36,5 +30,16 @@ npm run test
 npm run lint
 ```
 
-Ellaism Website is released under the terms of the MIT license. See [LICENSE](LICENSE) 
+## Contributing to this project
+
+Anyone and everyone is welcome to contribute. Please take a moment to
+review the [guidelines for contributing](CONTRIBUTING.md).
+
+* [Bug reports](CONTRIBUTING.md#bugs)
+* [Feature requests](CONTRIBUTING.md#features)
+* [Pull requests](CONTRIBUTING.md#pull-requests)
+
+## License
+
+This project is released under the terms of the MIT license. See [LICENSE](LICENSE) 
 for more information or see https://opensource.org/licenses/MIT.
