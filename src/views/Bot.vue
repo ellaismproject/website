@@ -8,15 +8,15 @@
                         to interact with the network. Below you will find documentation on how you can use them.</p>
                     <h2>Twitter Faucet</h2>
                     <p>
-                        <code class="highlighter-rouge">https://twitter.com/ellaismcore/status/958926185991254016</code>
+                        <code>https://twitter.com/ellaismcore/status/958926185991254016</code>
                         the
-                        Tweet ID is the digits in the end <code class="highlighter-rouge">958926185991254016</code>.
+                        Tweet ID is the digits in the end <code>958926185991254016</code>.
 
                         Then, go to the Ellaism discord. In #bots channel, send a message <code
-                            class="highlighter-rouge">!faucet
+                           >!faucet
                         claim &lt;tweet id&gt; &lt;destination address&gt;</code>.
 
-                        For example, <code class="highlighter-rouge">!faucet claim 958926462907658241
+                        For example, <code>!faucet claim 958926462907658241
                         0xe9C2d958E6234c862b4AfBD75b2fd241E9556303</code>. The bot will then send you 1/2000 of the
                         current
                         balance in faucet, or 0.1 ELLA, whichever is lower.
@@ -40,7 +40,7 @@
                         The
                         Carbon Vote bot on the Discord server allows you to easily create a new Carbon Vote process
                         yourself. To do this, first list all the voting options, in <code
-                            class="highlighter-rouge">#bots</code> channel, for each option, run:
+                           >#bots</code> channel, for each option, run:
                     </p>
 
                     <div class="bl-highlight-wrapper">
@@ -90,7 +90,7 @@
 
                         <p class="bl-pre-line">
                             This would donate an additional 5% to Dev Fund, and sends the rest of the balance to <code
-                                class="highlighter-rouge">0x65767ec6d4d3d18a200842352485cdc37cbf3a21</code>. The bot
+                               >0x65767ec6d4d3d18a200842352485cdc37cbf3a21</code>. The bot
                             will
                             then
                             give you an contract address. After that, you simply need to mine to this split contract
@@ -124,7 +124,7 @@
                         <p class="bl-pre-line">
                             We hold weekly development meetings every Saturday 4pm UTC. It is recommended that you run
                             the
-                            command below in <code class="highlighter-rouge">#development</code> channel on the Discord
+                            command below in <code>#development</code> channel on the Discord
                             server,
                             so that we have a good estimate on how many people will be there.
                         </p>

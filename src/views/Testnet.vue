@@ -4,17 +4,20 @@
         <section class="section">
             <div class="container">
                 <div class="content">
-                    <p>Ellaism has a Proof-of-Authority (PoA) testnet called "Autumnus". To connect to the testnet,
-                        download <a
-                                href="https://raw.githubusercontent.com/ellaismproject/parity-config/master/autumnus.json">this
-                            file</a> and run:</p>
-                    <pre>parity --chain autumnus.json</pre>
-                    <p>We choose the PoA consensus algorithm because it provides a stable experience. It is known that
-                        Proof-of-Work testnets can be unstable due to lack of nodes.</p>
+                    <p>Ellaism has a Proof-of-Authority (PoA) testnet called "Autumnus". The testnet settings are
+                        similar to mainnet, however we chose the PoA consensus algorithm because it provides a stable
+                        experience. More information about proof-of-authority consensus can be found in the <a
+                                href="https://wiki.parity.io/Proof-of-Authority-Chains">Parity documentation</a> and on
+                        <a href="https://en.wikipedia.org/wiki/Proof_of_authority">Wikipedia</a>.</p>
                     <b-notification type="is-warning" has-icon icon-pack="fa" :closable="false" role="alert">Please be
                         aware that the Autumnus network can be restarted at any time with all states cleared. <strong>Do
                             not use it to store anything important.</strong>
                     </b-notification>
+                    <h2>Getting Started</h2>
+                    <p>It is easy to connect to the Autumnus testnet! To get started, download the <a
+                            href="https://raw.githubusercontent.com/ellaismproject/parity-config/master/autumnus.json">autumnus
+                        testnet configuration</a> and run:</p>
+                    <pre>parity --chain autumnus.json</pre>
                     <p>Additional facilities you can use on the testnet:</p>
                     <ul>
                         <li>Explorer: <a
@@ -23,7 +26,7 @@
                         <li>JSONRPC Endpoint: <a href="https://jsonrpc.testnet.ellaism.io">https://jsonrpc.testnet.ellaism.io</a>
                             - <strong>Soon</strong></li>
                     </ul>
-                    <h2>Faucet</h2>
+                    <h2>Testnet Faucet</h2>
                     <p>We are currently working on setting up an automated faucet. If you need testnet tokens
                         immediately, join us on Discord and ping majordutch. Otherwise send an email to <a
                                 href="mailto:core@ellaism.io">core@ellaism.io</a> with your testnet address and we will
