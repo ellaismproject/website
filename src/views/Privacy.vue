@@ -1,5 +1,5 @@
 <template>
-    <div class="privacy">
+    <div class="page privacy">
         <PageHeading title-key="page.privacy.title"/>
         <section class="section">
             <div class="container">

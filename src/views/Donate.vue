@@ -1,5 +1,5 @@
 <template>
-    <div class="donate">
+    <div class="page donate">
         <PageHeading title-key="page.donate.title" subtitle-key="page.donate.subtitle"/>
         <section class="section">
             <div class="container">

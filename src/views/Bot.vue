@@ -1,5 +1,5 @@
 <template>
-    <div class="bot">
+    <div class="page bot">
         <PageHeading title-key="page.bot.title" subtitle-key="page.bot.subtitle"/>
         <section class="section">
             <div class="container">

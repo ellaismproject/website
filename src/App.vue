@@ -54,4 +54,7 @@
     body
         cursor: default
 
+    #app .page
+        min-height: 100vh
+
 </style>

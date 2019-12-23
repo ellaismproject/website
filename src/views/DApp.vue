@@ -1,5 +1,5 @@
 <template>
-    <div class="dapp">
+    <div class="page dapp">
         <PageHeading title-key="page.dapp.title" subtitle-key="page.dapp.subtitle"/>
         <section class="section">
             <div class="container">

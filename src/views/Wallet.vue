@@ -1,5 +1,5 @@
 <template>
-    <div class="wallet">
+    <div class="page wallet">
         <PageHeading title-key="page.wallet.title" subtitle-key="page.wallet.subtitle"/>
         <section class="section">
             <div class="container">

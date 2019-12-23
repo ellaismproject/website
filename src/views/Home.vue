@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="page home">
         <section class="hero is-large is-intro">
             <div class="hero-body">
                 <div class="container has-text-centered">

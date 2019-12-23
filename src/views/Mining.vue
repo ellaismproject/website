@@ -1,5 +1,5 @@
 <template>
-    <div class="mining">
+    <div class="page mining">
         <PageHeading title-key="page.mining.title" subtitle-key="page.mining.subtitle"/>
         <section class="section">
             <div class="container">

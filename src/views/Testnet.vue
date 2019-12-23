@@ -1,5 +1,5 @@
 <template>
-    <div class="testnet">
+    <div class="page testnet">
         <PageHeading title-key="page.testnet.title" subtitle-key="page.testnet.subtitle"/>
         <section class="section">
             <div class="container">
