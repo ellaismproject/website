@@ -2,7 +2,9 @@
     <div id="app">
         <HeaderContent/>
 
-        <router-view/>
+        <div class="page-wrapper">
+            <router-view/>
+        </div>
 
         <FooterContent/>
     </div>
@@ -54,7 +56,7 @@
     body
         cursor: default
 
-    #app .page
+    #app > div.page-wrapper, #app > div.page-wrapper .page
         min-height: 100vh
 
 </style>
