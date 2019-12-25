@@ -1,6 +1,6 @@
 {
   "name": "ellaism.io",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "buefy": "^0.8.8",
-    "core-js": "^3.6.0",
+    "core-js": "^3.6.1",
     "vue": "^2.6.11",
     "vue-analytics": "^5.20.1",
     "vue-class-component": "^7.0.2",
