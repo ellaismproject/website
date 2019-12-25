@@ -9,11 +9,13 @@
     "deploy": "cd ./dist && surge ."
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "buefy": "^0.8.8",
     "core-js": "^3.6.1",
     "vue": "^2.6.11",
     "vue-analytics": "^5.20.1",
     "vue-class-component": "^7.0.2",
+    "vue-clipboard2": "^0.3.1",
     "vue-i18n": "^8.15.3",
     "vue-meta": "^2.3.1",
     "vue-property-decorator": "^8.3.0",
