@@ -1,5 +1,6 @@
 {
   "ellaism": "Ellaism",
+  "ellaism_project": "@:ellaism Project",
   "page": {
     "default": {
       "meta_title": "@:ellaism",
@@ -64,7 +65,22 @@
     "donate": {
       "meta_title": "Donate",
       "title": "Donate to @:ellaism",
-      "subtitle": "@:ellaism is a 100% community-sponsored project."
+      "subtitle": "@:ellaism is a 100% community-sponsored project.",
+      "intro": "In an effort to maintain a high level of transparency for the @:ellaism_project, donated funds are held in multisignature (multisig) wallets. The multisig wallets for the development and community funds can receive inbound transactions as normal. However, to execute transactions, it requires multiple, unrelated entities to sign the transaction.",
+      "governance_note": "The development and community funds are not intended to be utilized as a governance protocol. The understood purpose of these funds is to serve the community-driven goals of the @:(ellaism_project).",
+      "donation_title": "Donation Methods",
+      "donation_intro": "@:ellaism is a 100% community-sponsored project. If you want to join our efforts, the easiest thing you can do is support the project financially.",
+      "development_fund_title": "Development Fund Wallet",
+      "development_fund_intro": "The development fund is currently used to support the following initiatives:",
+      "development_fund_point_1": "@:ellaism blockchain explorer",
+      "development_fund_point_2": "@:ellaism public JSON-RPC API",
+      "development_fund_point_3": "@:ellaism specifications and protocol upgrades",
+      "development_fund_point_4": "Other development activities",
+      "community_fund_title": "Community Fund Wallet",
+      "community_fund_intro": "The community fund is currently used to support the following initiatives:",
+      "community_fund_point_1": "Marketing initiatives and events",
+      "community_fund_point_2": "Crowdsourced tasks",
+      "community_fund_point_3": "Other community activities"
     },
     "wallet": {
       "meta_title": "Wallets",
@@ -74,6 +90,24 @@
     "privacy": {
       "meta_title": "Privacy Policy",
       "title": "Privacy Policy"
+    }
+  },
+  "component": {
+    "fund_wallet": {
+      "balance": "Balance {hash}",
+      "copy_success_message": "Address copied to clipboard!",
+      "copy_failure_message": "Unable to copy address to clipboard.",
+      "signers": {
+        "message": "The current signers can be found in the {documentation}.",
+        "documentation": "@:ellaism documentation"
+      },
+      "quorum": {
+        "message": "The development fund requires a quorum of {min} out of {total} signers to execute a transaction."
+      },
+      "footer": {
+        "copy": "Copy Address",
+        "explorer": "View on Explorer"
+      }
     }
   },
   "navigation": {
