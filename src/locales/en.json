@@ -139,7 +139,7 @@
     }
   },
   "footer": {
-    "copyright": "{symbol} @:ellaism Project {year} Released under the MIT license",
+    "copyright": "{symbol} {year} @:ellaism Project",
     "statement": {
       "title": "Statement",
       "content": "@:ellaism is not funded nor controlled by any entity, it is an open-source platform for decentralized applications."
