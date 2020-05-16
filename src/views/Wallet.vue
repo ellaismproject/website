@@ -1,92 +1,62 @@
 <template>
     <div class="page wallet">
-        <PageHeading title-key="page.wallet.title" subtitle-key="page.wallet.subtitle"/>
+        <PageHeading subtitle-key="page.wallet.subtitle" title-key="page.wallet.title"/>
         <section class="section">
             <div class="container">
                 <div class="content">
-                    <p>
-                        We have multiple clients available you can use to connect to the Ellaism network. You can also
-                        use
-                        MyEtherWallet, MyCrypto and MetaMask to interact with the network.
-                    </p>
+                    <p>We have multiple clients available you can use to connect to the Ellaism network. You can also
+                        use MyEtherWallet, MyCrypto and MetaMask to interact with the network.</p>
 
                     <h4 class="bl-h4">Web</h4>
                     <ul class="bl-list-bullet bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li><a href="https://mycrypto.com/account" target="_blank"
-                               class="bl-text-secondary-underline">MyCrypto</a>: Choose ELLA from the top-right dropdown
-                            menu.
+                        <li><a class="bl-text-secondary-underline" href="https://mycrypto.com/"
+                               target="_blank">MyCrypto</a>: Choose ELLA from the top-right dropdown menu.
                         </li>
-                        <li><a href="https://www.myetherwallet.com/" target="_blank"
-                               class="bl-text-secondary-underline">MyEtherWallet</a>:
-                            Choose ELLA from the top-right dropdown menu.
-                        </li>
-                    </ul>
-
-                    <h4 class="bl-h4">Mobile</h4>
-                    <ul class="bl-list-bullet bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li><a href="https://play.google.com/store/apps/details?id=com.outdoordevs.ellaism.wallet"
-                               target="_blank" class="bl-text-secondary-underline">Android</a>: Ellaism is available on
-                            Android
-                            via the Google Play Store.
-                        </li>
-                        <li><a href="https://itunes.apple.com/us/app/ellaism-wallet/id1397079303?mt=8" target="_blank"
-                               class="bl-text-secondary-underline">iOS</a>: Ellaism is available on iOS via the Apple
-                            App Store
+                        <li><a class="bl-text-secondary-underline" href="https://www.myetherwallet.com/"
+                               target="_blank">MyEtherWallet</a>: Choose ELLA from the top-right dropdown menu.
                         </li>
                     </ul>
 
                     <h4 class="bl-h4">Hardware</h4>
                     <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li><a href="https://www.ledger.com/pages/supported-crypto-assets" target="_blank"
-                               class="bl-text-secondary-underline">Ledger</a>: Ellaism is available on the Ledger Nano S
-                            and
-                            Ledger Blue.
+                        <li><a class="bl-text-secondary-underline"
+                               href="https://www.ledger.com/supported-crypto-assets/"
+                               target="_blank">Ledger</a>: Ellaism is available on the Ledger Nano S
+                            and Ledger Blue.
                         </li>
                     </ul>
 
-                    <h5 id="plugin" class="bl-h5-common-spacer bl-h5">Browser Plugin</h5>
+                    <h5 class="bl-h5-common-spacer bl-h5" id="plugin">Browser Plugin</h5>
                     <p>You can also use the MetaMask browser plugin on Ellaism. This plugin allows you to directly
-                        interact with
-                        many Ethereum dapps on the network. To do this:</p>
+                        interact with many Ethereum dapps on the network. To do this:</p>
                     <ul class="bl-list-bullet bl-spacer-b-m-40 bl-spacer-l-m-40 bl-spacer-mob-l-m-30">
-                        <li>Download <a href="https://metamask.io/" target="_blank"
-                                        class="bl-text-secondary-underline">MetaMask</a> from the official website.
+                        <li>Download <a class="bl-text-secondary-underline" href="https://metamask.io/" target="_blank">MetaMask</a>
+                            from the official website.
                         </li>
                         <li>After installation, click the MetaMask icon, and choose (in the top left corner of the pop
+                            up) network selection.
                         </li>
-                        up) network selection.
                         <li>Choose “Custom RPC” and Enter <code
-                                class="highlighter-rouge">https://jsonrpc.ellaism.io</code>.
-                            Click “Save”.
+                                class="highlighter-rouge">https://jsonrpc.ellaism.io</code>. Click “Save”.
                         </li>
                     </ul>
-                    <p class="bl-spacer-b-m-40">
-                        Now you can use dapps directly. For example, try out <a target="_blank"
-                                                                                class="bl-text-secondary-underline"
-                                                                                href="http://thetokenfactory.com/#/">Token
-                        Factory </a> which allows you to create a new tokens in minutes.
-                    </p>
+                    <p class="bl-spacer-b-m-40">Now you can use dapps directly. For example, try out <a
+                            class="bl-text-secondary-underline" href="http://thetokenfactory.com/#/" target="_blank">Token
+                        Factory </a> which allows you to create a new tokens in minutes.</p>
 
-                    <h5 id="fullnode" class="bl-h5">
-                        Parity Full Node
+                    <h5 class="bl-h5">
+                        OpenEthereum Full Node
                     </h5>
-                    <p class="bl-spacer-b-m-40">
-                        Install <a href="https://github.com/paritytech/parity/releases" target="_blank"
-                                   class="bl-text-secondary-underline">Parity from Parity’s official website.</a> Please
-                        use
-                        Parity version 1.9.0 or later. Run Parity with <code class="highlighter-rouge">parity --chain
-                        ellaism</code>.
+                    <p class="bl-spacer-b-m-40">Install <a class="bl-text-secondary-underline"
+                                                           href="https://github.com/openethereum/openethereum/releases"
+                                                           target="_blank">OpenEthereum</a>
+                        Please use OpenEthereum version 1.9.0 or later. Run OpenEthereum with <code
+                                class="highlighter-rouge">openethereum
+                            --chain ellaism.json</code>. Include the <code class="highlighter-rouge">--author
+                            yourellaaddress</code> parameter if you plan to mine using this node.</p>
 
-                        Include the <code class="highlighter-rouge">--author yourellaaddress</code> parameter if you
-                        plan to
-                        mine using this node.
-                    </p>
-
-                    <h5 id="fullnode" class="bl-h5">
-                        Mining
-                    </h5>
-                    <p>
-                        If you want to solo mine on the Ellaism network, follow the solo mining guide
+                    <h5 class="bl-h5" id="fullnode">Mining</h5>
+                    <p>If you want to solo mine on the Ellaism network, follow the solo mining guide
                         <router-link :to="{name:'mining'}">here</router-link>
                         after you have started a full node.
                     </p>
