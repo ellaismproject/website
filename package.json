@@ -1,35 +1,38 @@
 {
   "name": "ellaism.io",
-  "version": "2.1.2",
+  "version": "2.2.0",
+  "description": "A primary online resource for the Ellaism community.",
+  "author": "Ellaism Project <core@ellaism.io>",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "deploy": "cd ./dist && surge ."
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "buefy": "^0.8.18",
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-analytics": "^5.22.1",
-    "vue-class-component": "^7.2.3",
-    "vue-clipboard2": "^0.3.1",
-    "vue-i18n": "^8.17.6",
-    "vue-meta": "^2.3.3",
-    "vue-property-decorator": "^8.4.2",
-    "vue-router": "^3.1.6",
-    "vuex": "^3.4.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-i18n": "^6.12.2",
+    "vue-clipboard2": "^0.3.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.3.1",
-    "@vue/cli-plugin-typescript": "^4.3.1",
-    "@vue/cli-service": "^4.3.1",
-    "filemanager-webpack-plugin": "^2.0.5",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "typescript": "^3.9.2",
-    "vue-template-compiler": "^2.6.11"
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.3.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^7.2.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
   }
 }

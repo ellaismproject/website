@@ -1,34 +1,28 @@
-# ![Ellaism](doc/logo.png) Ellaism Website
+# Ellaism Website
 
 A primary online resource for the Ellaism community.
 
-![GitHub](https://img.shields.io/github/license/ellaismproject/Cinder)
+![GitHub](https://img.shields.io/github/license/ellaismproject/ellaism.io)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-## Project setup
-```
-npm install
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## Contributing to this project
 
