@@ -165,7 +165,7 @@
           <b-card-group deck>
             <b-card>
               <b-card-title>
-                <font-awesome-icon :icon="['fas', 'code-branch']" />
+                <font-awesome-icon :icon="['fas', 'unlock-alt']" />
                 <span>Permissionless</span>
               </b-card-title>
               <b-card-text
@@ -272,7 +272,7 @@
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>limax</strong></p>
               <p class="text-muted mb-5 mb-md-0">
-                <small>Communications</small>
+                <small>Community Developer</small>
               </p>
             </b-col>
             <b-col sm="12" md="3" class="inactive">
