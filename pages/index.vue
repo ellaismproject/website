@@ -123,9 +123,9 @@
       <b-container>
         <h2 class="h1 font-weight-lighter">Principles</h2>
         <p class="lead">
-          Ellaism is guided by a set of principals that were established along
+          Ellaism is guided by a set of principles that were established along
           with the genesis block. All changes or upgrades to the protocol should
-          should strive to maintain and reinforce these principals.
+          should strive to maintain and reinforce these principles.
         </p>
         <div class="mt-5">
           <b-card-group deck>
