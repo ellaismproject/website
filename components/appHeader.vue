@@ -5,9 +5,7 @@
         <ul class="list-inline mb-0 text-center">
           <li class="list-inline-item">
             <i18n path="navigation.blockHeight">
-              <span slot="amount">
-                <i18n-n :value="height" />
-              </span>
+              <span slot="amount">{{ height }}</span>
             </i18n>
           </li>
           <li class="list-inline-item">
@@ -17,9 +15,7 @@
           </li>
           <li class="list-inline-item">
             <i18n path="navigation.marketCap">
-              <span slot="amount">
-                <i18n-n :value="marketCap" format="marketCap" />
-              </span>
+              <span slot="amount">{{ marketCap }}</span>
             </i18n>
           </li>
         </ul>
@@ -110,13 +106,13 @@ export default {
       price: PRICE,
     }),
     hashrate() {
-      return this.netInfo?.averageNetworkHashRate?.toFixed(2) || 0
+      return this.$n(this.netInfo?.averageNetworkHashRate?.toFixed(2) || 0)
     },
     height() {
-      return this.netInfo?.bestBlock || 0
+      return this.$n(this.netInfo?.bestBlock || 0)
     },
     marketCap() {
-      return this.price?.usdMarketCap || 0
+      return this.$n(this.price?.usdMarketCap || 0, 'marketCap')
     },
   },
 }
