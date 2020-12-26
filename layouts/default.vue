@@ -1,63 +1,65 @@
 <template>
-  <div id="app">
-    <HeaderContent />
-
-    <div class="page-wrapper">
-      <nuxt />
-    </div>
-
-    <FooterContent />
-  </div>
+  <main>
+    <app-header />
+    <Nuxt />
+    <app-footer />
+  </main>
 </template>
 
 <script>
-import HeaderContent from '~/components/HeaderContent'
-import FooterContent from '~/components/FooterContent'
+import { mapActions } from 'vuex'
+import {
+  FETCH_NET_INFO,
+  FETCH_PRICE,
+  STATS_MODULE_NAMESPACE,
+} from '~/store/stats'
+import AppHeader from '~/components/appHeader'
+import AppFooter from '~/components/appFooter'
+
 export default {
-  components: {
-    HeaderContent,
-    FooterContent
-  },
-  data () {
+  components: { AppHeader, AppFooter },
+  data() {
     return {
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        }
-      ]
+      fetchNetInfoTask: null,
+      fetchPriceTask: null,
     }
-  }
+  },
+  async fetch() {
+    await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_NET_INFO}`)
+    await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_PRICE}`)
+  },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'generator',
+          name: 'generator',
+          content: `${process.env.npm_package_name} ${process.env.version}`,
+        },
+      ],
+    }
+  },
+  mounted() {
+    this.fetchNetInfoTask = setInterval(() => {
+      this.fetchNetInfo()
+    }, 15000)
+    this.fetchPriceTask = setInterval(() => {
+      this.fetchPrice()
+    }, 30000)
+  },
+  beforeDestroy() {
+    if (this.fetchNetInfoTask !== null) {
+      clearInterval(this.fetchNetInfoTask)
+    }
+    if (this.fetchPriceTask !== null) {
+      clearInterval(this.fetchPriceTask)
+    }
+  },
+  methods: {
+    ...mapActions(STATS_MODULE_NAMESPACE, {
+      fetchNetInfo: FETCH_NET_INFO,
+      fetchPrice: FETCH_PRICE,
+    }),
+  },
 }
 </script>
-
-<style lang="sass">
-  @import "~bulma/sass/utilities/initial-variables"
-  @import "~bulma/sass/utilities/functions"
-
-  $link: #3D996F
-
-  $footer-background-color: #313131
-  $footer-padding: 3rem 0 0
-
-  $ella: #3D996F
-  $ella-invert: findColorInvert($ella)
-
-  @import "~bulma/sass/utilities/derived-variables"
-  $addColors: ("ella":($ella, $ella-invert))
-
-  $colors: map-merge($colors, $addColors)
-
-  $navbar-item-img-max-height: 2.25rem
-
-  @import "~bulma"
-  @import "~buefy/src/scss/buefy"
-
-  body
-    cursor: default
-
-  #app > div.page-wrapper, #app > div.page-wrapper .page
-    min-height: 100vh
-
-</style>
