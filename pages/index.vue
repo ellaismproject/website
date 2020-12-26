@@ -16,7 +16,7 @@
           rel="noopener"
           >fair launch</b-link
         >, and has never had any mandatory developer fees. All development is
-        donated freely by the community, making Ellaism one of the most pure
+        donated freely by the community, making Ellaism one of the purest
         Ethereum projects.
       </p>
       <b-button
@@ -125,7 +125,7 @@
         <p class="lead">
           Ellaism is guided by a set of principles that were established along
           with the genesis block. All changes or upgrades to the protocol should
-          should strive to maintain and reinforce these principles.
+          strive to maintain and reinforce these principles.
         </p>
         <div class="mt-5">
           <b-card-group deck>
