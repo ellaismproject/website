@@ -309,7 +309,7 @@
               projects as well as industry news. If you would like to contribute
               related news, please contact a team member on Discord.
             </p>
-            <b-button :to="{ name: 'updates' }" variant="outline-light">
+            <b-button :to="{ name: 'news' }" variant="outline-light">
               <font-awesome-icon :icon="['fas', 'newspaper']" />
               <span>Read the latest updates</span></b-button
             >
