@@ -110,13 +110,13 @@ export default {
       price: PRICE,
     }),
     hashrate() {
-      return this.netInfo.averageNetworkHashRate?.toFixed(2) || 0
+      return this.netInfo?.averageNetworkHashRate?.toFixed(2) || 0
     },
     height() {
-      return this.netInfo.bestBlock || 0
+      return this.netInfo?.bestBlock || 0
     },
     marketCap() {
-      return this.price.usdMarketCap || 0
+      return this.price?.usdMarketCap || 0
     },
   },
 }
