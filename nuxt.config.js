@@ -66,7 +66,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ['~/plugins/fontawesome.js', '~/plugins/nuxt-clipboard2.js'],
+  plugins: ['~/plugins/fontawesome.js'],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components

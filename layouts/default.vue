@@ -24,10 +24,11 @@ export default {
       fetchPriceTask: null,
     }
   },
-  async fetch() {
-    await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_NET_INFO}`)
-    await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_PRICE}`)
-  },
+  // Something appears to be broken with SSR/Proxy
+  // async fetch() {
+  //   await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_NET_INFO}`)
+  //   await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_PRICE}`)
+  // },
   head() {
     return {
       meta: [
@@ -40,6 +41,10 @@ export default {
     }
   },
   mounted() {
+    // Run these client-side for now
+    this.fetchNetInfo()
+    this.fetchPrice()
+
     this.fetchNetInfoTask = setInterval(() => {
       this.fetchNetInfo()
     }, 15000)

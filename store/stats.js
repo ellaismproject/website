@@ -27,7 +27,6 @@ export const actions = {
     await this.$axios
       .$get('/api/stats/netinfo')
       .then((data) => {
-        console.log(data)
         commit(SET_NET_INFO, data)
       })
       .catch((error) => {
@@ -38,7 +37,6 @@ export const actions = {
     await this.$axios
       .$get('/api/stats/price')
       .then((data) => {
-        console.log(data)
         commit(SET_PRICE, data)
       })
       .catch((error) => {
