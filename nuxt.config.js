@@ -155,7 +155,6 @@ export default {
    ** Nuxt.js Proxy
    */
   proxy: {
-    // Cinder API Instance
     '/api': {
       pathRewrite: { '^/api': '/v1' },
       target: process.env.API_URL || 'https://api.ellaism.io',

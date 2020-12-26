@@ -24,13 +24,25 @@ export const FETCH_PRICE = 'loadPrice'
 
 export const actions = {
   async [FETCH_NET_INFO]({ commit }) {
-    const response = await this.$axios.get('/api/stats/netinfo')
-
-    commit(SET_NET_INFO, response.data)
+    await this.$axios
+      .$get('/api/stats/netinfo')
+      .then((data) => {
+        console.log(data)
+        commit(SET_NET_INFO, data)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
   },
   async [FETCH_PRICE]({ commit }) {
-    const response = await this.$axios.get('/api/stats/price')
-
-    commit(SET_PRICE, response.data)
+    await this.$axios
+      .$get('/api/stats/price')
+      .then((data) => {
+        console.log(data)
+        commit(SET_PRICE, data)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
   },
 }
