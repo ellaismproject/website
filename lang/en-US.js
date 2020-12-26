@@ -43,6 +43,9 @@ export default {
     },
   },
   navigation: {
+    blockHeight: 'Block Height: {amount}',
+    networkHashrate: 'Network Hashrate: {amount} GH/s',
+    marketCap: 'Market Cap: {amount}',
     wallets: 'Wallets',
     explorer: 'Explorer',
     resources: 'Resources',
@@ -55,21 +58,7 @@ export default {
   },
   footer: {
     copyright: '{symbol} {year} {name} Contributors',
-    version: 'v{version}',
-    hosted_by_statement: 'Hosting provided by @:vendor.blocksentinel',
-    price_statement: 'Price data provided by @:vendor.coingecko',
-    network_status: 'Network Status',
-  },
-  stats: {
-    blockHeight: 'Block Height:',
-    block_time: 'Avg. Block Time',
-    networkHashRate: 'Network Hashrate:',
-    marketCap: 'Market Cap:',
-    difficulty: 'Difficulty',
-    btc_price: 'BTC Price',
-    ghs: '{amount} GH/s',
-    gh: '{amount} GH',
-    s: '{amount} s',
+    priceStatement: 'Price data provided by @:vendor.coingecko',
   },
   vendor: {
     blocksentinel: 'Block Sentinel',

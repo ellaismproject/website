@@ -95,7 +95,7 @@
               </p>
               <code>https://jsonrpc.ellaism.io</code>
             </b-col>
-            <b-col sm="12" offset-md="2" md="6">
+            <b-col sm="12" offset-md="2" md="6" class="mt-5 mt-md-0">
               <h3 class="font-weight-lighter">Clients</h3>
               <p>
                 The Ellaism team recommends the use of
