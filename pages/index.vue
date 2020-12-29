@@ -407,6 +407,20 @@
               />
             </b-link>
           </b-col>
+          <b-col sm="12" md="3">
+            <b-link
+              href="https://blockspot.io/coin/ellaism/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <b-img
+                src="~/assets/vendors/blockspot.png"
+                alt="Blockspot.io"
+                class="logo"
+                fluid
+              />
+            </b-link>
+          </b-col>
         </b-row>
       </b-container>
     </section>
