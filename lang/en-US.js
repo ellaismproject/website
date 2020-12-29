@@ -12,7 +12,7 @@ export default {
     resourcesDiscord: 'Discord',
     resourcesReddit: 'Reddit',
     resourcesTelegram: 'Telegram',
-    resourcesTwitter: 'Telegram',
+    resourcesTwitter: 'Twitter',
   },
   footer: {
     copyright: '{symbol} {year} {name} Contributors',
