@@ -393,7 +393,7 @@
               />
             </b-link>
           </b-col>
-          <b-col sm="12" md="3">
+          <b-col sm="12" md="3" class="mb-5 mb-md-0">
             <b-link
               href="https://whattomine.com/coins/221-ella-ethash"
               target="_blank"
