@@ -176,6 +176,11 @@ export default {
    ** See https://nuxtjs.org/guide/runtime-config#runtime-config-213
    */
   publicRuntimeConfig: {
+    analytics: {
+      scriptSrc: process.env.ANALYTICS_SCRIPT_SRC,
+      siteId: process.env.ANALYTICS_SITE_ID,
+      includedDomains: process.env.ANALYTICS_INCLUDED_DOMAINS,
+    },
     axios: {
       browserBaseURL: process.env.BROWSER_BASE_URL,
     },

@@ -30,12 +30,25 @@ export default {
   //   await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_PRICE}`)
   // },
   head() {
+    const skipAnalytics = !this.$config.analytics.scriptSrc
+
     return {
       meta: [
         {
           hid: 'generator',
           name: 'generator',
           content: `${process.env.npm_package_name} ${process.env.version}`,
+        },
+      ],
+      script: [
+        {
+          src: this.$config.analytics.scriptSrc,
+          'data-site': this.$config.analytics.siteId,
+          'data-included-domains': this.$config.analytics.includedDomains,
+          'data-spa': 'auto',
+          once: true,
+          skip: skipAnalytics,
+          defer: true,
         },
       ],
     }
