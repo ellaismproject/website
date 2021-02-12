@@ -18,17 +18,17 @@
     "*.{js,vue}": "eslint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/vue-fontawesome": "^2.0.2",
-    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/proxy": "^2.1.0",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "moment": "^2.29.1",
     "nuxt": "^2.14.12",
-    "nuxt-i18n": "^6.16.0"
+    "nuxt-i18n": "^6.20.0"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
@@ -36,23 +36,23 @@
     "@nuxtjs/eslint-config": "^5.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/moment": "^1.6.1",
-    "@vue/test-utils": "^1.1.2",
+    "@vue/test-utils": "^1.1.3",
     "ava": "^3.15.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-module-resolver": "^4.1.0",
     "cross-env": "^7.0.3",
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^7.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "jsdom": "^16.4.0",
     "jsdom-global": "^3.0.2",
-    "lint-staged": "^10.5.3",
+    "lint-staged": "^10.5.4",
     "node-sass": "^5.0.0",
     "prettier": "^2.2.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^3.0.0",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.1"
   }
 }
