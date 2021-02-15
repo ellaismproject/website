@@ -309,7 +309,12 @@
               projects as well as industry news. If you would like to contribute
               related news, please contact a team member on Discord.
             </p>
-            <b-button :to="{ name: 'news' }" variant="outline-light">
+            <b-button
+              href="https://forum.ellaism.io"
+              target="_blank"
+              rel="noopener"
+              variant="outline-light"
+            >
               <font-awesome-icon :icon="['fas', 'newspaper']" />
               <span>Read the latest updates</span></b-button
             >

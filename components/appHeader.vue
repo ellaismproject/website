@@ -39,6 +39,13 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item
+              href="https://forum.ellaism.io"
+              target="_blank"
+              rel="noopener"
+            >
+              {{ $t('navigation.forum') }}
+            </b-nav-item>
+            <b-nav-item
               href="https://explorer.ellaism.io"
               target="_blank"
               rel="noopener"

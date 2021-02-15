@@ -6,6 +6,7 @@ export default {
     marketCap: 'Market Cap: {amount}',
     wallets: 'Wallets',
     explorer: 'Explorer',
+    forum: 'Forum',
     resources: 'Resources',
     resourcesNetworkStatus: 'Network Status',
     resourcesGithub: 'GitHub',
