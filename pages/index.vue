@@ -240,6 +240,13 @@
             </b-col>
             <b-col sm="12" md="3">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
+              <p class="mb-0"><strong>sorpaas</strong></p>
+              <p class="text-muted mb-5 mb-md-0">
+                <small>Maintainer, Core Developer</small>
+              </p>
+            </b-col>
+            <b-col sm="12" md="3">
+              <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>majordutch</strong></p>
               <p class="text-muted mb-5 mb-md-0">
                 <small>Core Developer</small>
@@ -252,6 +259,10 @@
                 <small>Communications</small>
               </p>
             </b-col>
+          </b-row>
+        </div>
+        <div class="mt-5 text-center">
+          <b-row>
             <b-col sm="12" md="3" class="inactive">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>nully</strong></p>
@@ -259,10 +270,6 @@
                 <small>Core Developer</small>
               </p>
             </b-col>
-          </b-row>
-        </div>
-        <div class="mt-5 text-center">
-          <b-row>
             <b-col sm="12" md="3" class="inactive">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>towd</strong></p>
@@ -310,7 +317,7 @@
               related news, please contact a team member on Discord.
             </p>
             <b-button
-              href="https://forum.ellaism.io"
+              href="https://forum.ellaism.io/category/1/announcements"
               target="_blank"
               rel="noopener"
               variant="outline-light"
