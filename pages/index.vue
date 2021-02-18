@@ -255,7 +255,7 @@
             <b-col sm="12" md="3">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>differdrift</strong></p>
-              <p class="text-muted mb-5 mb-md-0">
+              <p class="text-muted mb-0">
                 <small>Communications</small>
               </p>
             </b-col>
@@ -266,7 +266,7 @@
             <b-col sm="12" md="3" class="inactive">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>nully</strong></p>
-              <p class="text-muted mb-0">
+              <p class="text-muted mb-5 mb-md-0">
                 <small>Core Developer</small>
               </p>
             </b-col>
