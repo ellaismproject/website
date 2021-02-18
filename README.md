@@ -1,9 +1,10 @@
 # Ellaism Website
 
-A primary online resource for the Ellaism community.
+> A primary online resource for Ellaism.
 
-![GitHub](https://img.shields.io/github/license/ellaismproject/ellaism.io)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+![GitHub](https://img.shields.io/github/license/ellaismproject/website)
+
+You can access it at [https://ellaism.io](https://ellaism.io).
 
 ## Build Setup
 
@@ -35,5 +36,5 @@ review the [guidelines for contributing](CONTRIBUTING.md).
 
 ## License
 
-This project is released under the terms of the MIT license. See [LICENSE](LICENSE) 
-for more information or see https://opensource.org/licenses/MIT.
+This project is released under the terms of the Apache License, Version 2.0. See [LICENSE](LICENSE)
+for more information or see https://opensource.org/licenses/Apache-2.0.

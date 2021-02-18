@@ -1,136 +1,193 @@
 require('dotenv').config()
 
 export default {
-  mode: 'universal',
   /*
-  ** Headers of the page
-  */
-  head: {
-    title: 'Ellaism Project',
-    meta: [
-      { charset: 'utf-8' },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Ellaism is an open-source platform for decentralized applications.'
-      }
-    ],
-    link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      },
-      {
-        rel: 'manifest',
-        href: '/manifest.json'
-      }
-    ]
+   ** Nuxt target
+   ** See https://nuxtjs.org/api/configuration-target
+   */
+  target: 'server',
+  /*
+   ** Environment Variables
+   ** See https://nuxtjs.org/api/configuration-env/
+   */
+  env: {
+    version: process.env.npm_package_version || '',
   },
   /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
+   ** Headers of the page
+   ** See https://nuxtjs.org/api/configuration-head
+   */
+  head: {
+    title: 'Home',
+    titleTemplate: '%s - Ellaism',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        name: 'description',
+        content:
+          'A decentralized computing platform that runs smart contracts: applications that run exactly as programmed without downtime, censorship or third party interference.',
+      },
+    ],
+    link: [
+      { rel: 'icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      {
+        rel: 'icon',
+        sizes: '32x32',
+        type: 'image/png',
+        href: '/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        sizes: '16x16',
+        type: 'image/png',
+        href: '/favicon-16x16.png',
+      },
+      { rel: 'apple-touch-icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+    ],
+  },
   /*
-  ** Global CSS
-  */
-  css: [],
+   ** Global CSS
+   */
+  css: [
+    '~/assets/scss/app.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css',
+  ],
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: ['~/plugins/nuxt-clipboard2.js'],
+   ** BootstrapVue
+   ** See https://bootstrap-vue.org/docs#nuxtjs-module
+   */
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false,
+  },
   /*
-  ** Nuxt.js dev-modules
-  */
+   ** Plugins to load before mounting the App
+   ** https://nuxtjs.org/guide/plugins
+   */
+  plugins: ['~/plugins/fontawesome.js'],
+  /*
+   ** Auto import components
+   ** See https://nuxtjs.org/api/configuration-components
+   */
+  components: true,
+  /*
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: process.env.NUXT_ENV_GA_MEASUREMENT_ID || ''
-      }
-    ]
+    // Doc: https://github.com/nuxt-community/moment-module
+    '@nuxtjs/moment',
   ],
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
-    // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
-    'nuxt-fontawesome',
-    // Doc: https://axios.nuxtjs.org/usage
+    // Doc: https://axios.nuxtjs.org/
     '@nuxtjs/axios',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
-    // Doc: https://nuxt-community.github.io/nuxt-i18n/
-    'nuxt-i18n'
+    // Doc: https://bootstrap-vue.js.org
+    'bootstrap-vue/nuxt',
+    // Doc: https://github.com/nuxt-community/proxy-module
+    '@nuxtjs/proxy',
+    // Doc: https://github.com/nuxt-community/i18n-module
+    'nuxt-i18n',
   ],
-  buefy: {
-    materialDesignIcons: false,
-    defaultIconPack: 'fas',
-    defaultIconComponent: 'font-awesome-icon'
+  /*
+   ** nuxt/axios
+   ** See https://axios.nuxtjs.org/
+   */
+  axios: {
+    proxy: true,
+    // Used as fallback if no runtime config is provided
+    baseURL: 'http://localhost:3000',
   },
-  fontawesome: {
-    imports: [
-      {
-        set: '@fortawesome/free-brands-svg-icons',
-        icons: [
-          'faGithub',
-          'faDiscord',
-          'faReddit',
-          'faTelegram',
-          'faTwitter'
-        ]
-      },
-      {
-        set: '@fortawesome/free-solid-svg-icons',
-        icons: [
-          'faCircle',
-          'faWallet',
-          'faMicrochip',
-          'faServer',
-          'faWindowRestore',
-          'faRobot',
-          'faCubes',
-          'faHeartbeat',
-          'faTerminal',
-          'faBalanceScale',
-          'faUsers',
-          'faInfoCircle'
-        ]
-      }
-    ]
-  },
+  /*
+   ** nuxt-i18n
+   ** See https://nuxt-community.github.io/nuxt-i18n/options-reference.html
+   ** See https://kazupon.github.io/vue-i18n/api/#constructor-options
+   */
   i18n: {
     locales: [
       {
         code: 'en',
         file: 'en-US.js',
-        name: 'English'
-      }
+      },
     ],
     defaultLocale: 'en',
+    strategy: 'no_prefix',
     lazy: true,
-    langDir: 'lang/'
+    langDir: 'lang/',
+    vueI18n: {
+      dateTimeFormats: {
+        en: {
+          short: {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+          },
+          long: {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+          },
+        },
+      },
+      numberFormats: {
+        en: {
+          marketCap: {
+            style: 'currency',
+            currency: 'USD',
+          },
+          currency: {
+            style: 'currency',
+            currency: 'USD',
+          },
+        },
+      },
+    },
   },
   /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {},
+   ** Nuxt.js Proxy
+   */
+  proxy: {
+    '/api': {
+      pathRewrite: { '^/api': '/v1' },
+      target: process.env.API_URL || 'https://api.ellaism.io',
+    },
+  },
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   ** See https://nuxtjs.org/api/configuration-build/
+   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    }
-  }
+    hotMiddleware: {
+      client: {
+        overlay: false,
+      },
+    },
+  },
+  /*
+   ** Runtime Config
+   ** See https://nuxtjs.org/guide/runtime-config#runtime-config-213
+   */
+  publicRuntimeConfig: {
+    analytics: {
+      scriptSrc: process.env.ANALYTICS_SCRIPT_SRC,
+      siteId: process.env.ANALYTICS_SITE_ID,
+      includedDomains: process.env.ANALYTICS_INCLUDED_DOMAINS,
+    },
+    axios: {
+      browserBaseURL: process.env.BROWSER_BASE_URL,
+    },
+  },
+  privateRuntimeConfig: {
+    axios: {
+      baseURL: process.env.BASE_URL,
+    },
+  },
 }
