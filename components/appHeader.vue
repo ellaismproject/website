@@ -39,6 +39,18 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item
+              href="https://vote.ellaism.io"
+              target="_blank"
+              rel="noopener"
+              class="ani-pulse"
+            >
+              <font-awesome-icon
+                :icon="['fas', 'vote-yea']"
+                class="mr-1 d-none d-md-inline-block"
+              />
+              {{ $t('navigation.vote') }}
+            </b-nav-item>
+            <b-nav-item
               href="https://forum.ellaism.io"
               target="_blank"
               rel="noopener"
@@ -126,6 +138,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/mixins/_breakpoints';
 @import 'assets/scss/variables';
 
 .top-nav {
@@ -136,5 +150,30 @@ export default {
 /deep/ .navbar {
   background-color: theme-color('primary');
   margin-bottom: 1.875rem;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .ani-pulse {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    &:hover,
+    &:focus {
+      animation: unset;
+    }
+  }
 }
 </style>

@@ -7,6 +7,7 @@ export default {
     wallets: 'Wallets',
     explorer: 'Explorer',
     forum: 'Forum',
+    vote: 'Vote',
     resources: 'Resources',
     resourcesNetworkStatus: 'Network Status',
     resourcesGithub: 'GitHub',
