@@ -24,11 +24,10 @@ export default {
       fetchPriceTask: null,
     }
   },
-  // Something appears to be broken with SSR/Proxy
-  // async fetch() {
-  //   await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_NET_INFO}`)
-  //   await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_PRICE}`)
-  // },
+  async fetch() {
+    await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_NET_INFO}`)
+    await this.$store.dispatch(`${STATS_MODULE_NAMESPACE}/${FETCH_PRICE}`)
+  },
   head() {
     const skipAnalytics = !this.$config.analytics.scriptSrc
 
@@ -54,10 +53,6 @@ export default {
     }
   },
   mounted() {
-    // Run these client-side for now
-    this.fetchNetInfo()
-    this.fetchPrice()
-
     this.fetchNetInfoTask = setInterval(() => {
       this.fetchNetInfo()
     }, 15000)
