@@ -482,6 +482,7 @@ section.section {
 
 .inactive {
   opacity: 0.5;
+  transition: opacity 0.15s ease-in-out;
 
   &:hover {
     opacity: 1;
