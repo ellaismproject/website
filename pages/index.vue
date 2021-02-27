@@ -93,7 +93,9 @@
                 If you would like to use a service that supports a standard
                 Ethereum JSON-RPC server, our public endpoint is located at:
               </p>
-              <code>https://jsonrpc.ellaism.io</code>
+              <div class="bg-dark p-3">
+                <code>https://jsonrpc.ellaism.io</code>
+              </div>
             </b-col>
             <b-col sm="12" offset-md="2" md="6" class="mt-5 mt-md-0">
               <h3 class="font-weight-lighter">Clients</h3>
@@ -113,7 +115,9 @@
                 Once you have downloaded MultiGeth, start your node by running
                 the following command:
               </p>
-              <code>geth --ellaism</code>
+              <div class="bg-dark p-3">
+                <code>geth --ellaism</code>
+              </div>
             </b-col>
           </b-row>
         </div>
