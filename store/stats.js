@@ -29,9 +29,7 @@ export const actions = {
       .then((data) => {
         commit(SET_NET_INFO, data)
       })
-      .catch((error) => {
-        console.log(error)
-      })
+      .catch((_) => {})
   },
   async [FETCH_PRICE]({ commit }) {
     await this.$axios
@@ -39,8 +37,6 @@ export const actions = {
       .then((data) => {
         commit(SET_PRICE, data)
       })
-      .catch((error) => {
-        console.log(error)
-      })
+      .catch((_) => {})
   },
 }
