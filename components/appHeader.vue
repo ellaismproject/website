@@ -39,18 +39,6 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item
-              href="https://vote.ellaism.io"
-              target="_blank"
-              rel="noopener"
-              class="ani-pulse"
-            >
-              <font-awesome-icon
-                :icon="['fas', 'vote-yea']"
-                class="mr-1 d-none d-md-inline-block"
-              />
-              {{ $t('navigation.vote') }}
-            </b-nav-item>
-            <b-nav-item
               href="https://forum.ellaism.io"
               target="_blank"
               rel="noopener"
