@@ -63,7 +63,7 @@
               </b-dropdown-item>
               <div class="dropdown-divider"></div>
               <b-dropdown-item
-                href="https://discord.gg/rndbuSz"
+                href="https://discord.gg/gz9tURY"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >

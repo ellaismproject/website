@@ -21,7 +21,7 @@
       </p>
       <b-button
         variant="purple"
-        href="https://discord.gg/rndbuSz"
+        href="https://discord.gg/gz9tURY"
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
@@ -249,14 +249,14 @@
                 <small>Maintainer, Core Developer</small>
               </p>
             </b-col>
-            <b-col sm="12" md="3">
+            <b-col sm="12" md="3" class="inactive">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>majordutch</strong></p>
               <p class="text-muted mb-5 mb-md-0">
                 <small>Core Developer</small>
               </p>
             </b-col>
-            <b-col sm="12" md="3">
+            <b-col sm="12" md="3" class="inactive">
               <b-avatar variant="primary" size="6rem" class="mb-2" />
               <p class="mb-0"><strong>differdrift</strong></p>
               <p class="text-muted mb-0">
